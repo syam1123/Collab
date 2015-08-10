@@ -23,14 +23,13 @@ a:hover{
 	margin-left: 50px;
 	text-align: right;
 }
-<<<<<<< HEAD
 .cover{
-		padding-left: 2%;
+	padding-left: 2%;
 	margin-left: 10%;
 	background-image: url("../img/cover.jpg");
 	height: 315px;
 	width: 851px;
-    
+	padding-bottom: 0;    
 
 }
 #hover-content {
@@ -114,7 +113,7 @@ body{
     border-width: thin;
     border-style: solid;
     border-color: lightgray;
-=======
+}
 .buttons_left_bar
 {
     margin-left: -5px;
@@ -154,5 +153,4 @@ body{
     top:10px;
     left:10px;
     width:300px;
->>>>>>> abin
 }
