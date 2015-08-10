@@ -1,4 +1,8 @@
 /*you guys can add your own styles here*/
+a:hover{
+	text-decoration: blink;
+	color: black;	
+}
 #head{
   background-color: #3b5998;
   margin-left: 0;
@@ -18,4 +22,52 @@
 	padding-left: 50px;
 	margin-left: 50px;
 	text-align: right;
+}
+.cover{
+		padding-left: 2%;
+	margin-left: 10%;
+	background-image: url("../img/cover.jpg");
+	height: 315px;
+	width: 851px;
+    
+
+}
+#hover-content {
+    display:none;
+    padding-left: 2%;
+}
+#parent:hover #hover-content {
+    display:inline;
+
+}
+#parent-content{
+	padding-left: 2%;
+	display: inline;
+}
+#parent:hover #parent-content{
+	display: none;
+}
+.camera-color{
+	color: white;
+
+}
+#coverpic{
+	background-color: rgba(0,0,0,.3);
+	width: 25%;
+	height: 33px;
+	display: inline-block;
+	border:2px 2px;
+	border-left: 10%;
+	border-style: 1px solid black;
+	padding left: %;
+}
+#covertop{
+	min-height: 300px;
+	max-height: 315px;
+}
+#image {
+   padding:1px;
+   border:4px solid white;
+   background-color: black;
+   box-shadow: 1px 1px #888888;
 }
