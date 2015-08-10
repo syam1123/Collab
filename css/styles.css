@@ -80,7 +80,7 @@ textarea{
     min-width: 100%;
     max-width: 100%;
     max-height: 100px;
-    
+    min-width :50px;
  }
 #inputForm{
     background-color: #dfe3ee;
