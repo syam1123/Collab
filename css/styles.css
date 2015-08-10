@@ -142,6 +142,7 @@ body{
 {
     color: darkgrey;
     margin-top: 0px;
+    background-color: transparent;
     border: none;
     display: block;
 }
