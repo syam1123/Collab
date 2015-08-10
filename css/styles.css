@@ -29,7 +29,7 @@ a:hover{
 	background-image: url("../img/cover.jpg");
 	height: 315px;
 	width: 851px;
-    
+	padding-bottom: 0;    
 
 }
 #hover-content {
