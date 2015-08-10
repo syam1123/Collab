@@ -34,7 +34,7 @@
             		
             		
             		<div class="hidden-xs col-md-4 dropdown" id="profile">
-            			<span><a class="" href="#" role="button"><img src="images/syam.jpg" height="30px" width="30px">&nbsp;<font color="white" size="2">Syam</font></a></span>&nbsp;<!--<span class="glyphicon glyphicon-option-vertical" aria-hidden="true"></span>--> |
+            			<span><a class="" href="#" role="button"><img src="img/profile.jpeg" height="30px" width="30px">&nbsp;<font color="white" size="2">Name</font></a></span>&nbsp;<!--<span class="glyphicon glyphicon-option-vertical" aria-hidden="true"></span>--> |
             			<span><a class="" href="#" role="button"><font color="white" size="2">Home</font></a></span>&nbsp;&nbsp;&nbsp;
             		    
 
@@ -143,6 +143,50 @@
 
    <div class="row">
          <div class="col-md-8">
+            <div class="cover">
+                <div id="parent">
+                <br>
+                    <div id="hover-content">
+                          <div id="coverpic">
+                          <a href=""><img src="img/camera.png" width="13%"></a>
+                          <a href="">&nbsp;Change Coverpic</a>
+                          </div>
+
+                        <!--'More' will appear on hover to division parent-->
+                     
+                     </div>
+                     
+                     <div class="camera-color" id="parent-content"><a><img src="img/camera.png" width="4%"></a></div>
+            </div>
+            <br><br><br><br><br><br><br>
+            <img id="image" src="img/profile.jpeg" height="160px" width="160px">
+            <br><br>
+            </div><br>
+            <div class="row">
+                <div class="col-md-4">
+                    
+                </div>
+                <div class="col-md-7">
+                    <ul class="nav nav-tabs nav-justified">
+                      <li role="presentation" class="active"><a href="#">Timeline</a></li>
+                      <li role="presentation"><a href="about.html">About</a></li>
+                      <li role="presentation"><a href="#">Friends</a></li>
+                      <li role="presentation"><a href="#">Photos</a></li>
+                      <li role="presentation" class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                          More <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li>hai</li>
+                          <li>hello</li>
+                        </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    
+                </div>
+            </div>
             Cover (Syam)
             <div class="row">
                 <div class="col-md-5">
@@ -159,8 +203,99 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-5">
-                    Sravan
+                <div class="col-md-7">
+                    
+                    <script>
+                        $(document).ready(function(){
+                            $('#myTab a').click(function (e) {
+                                e.preventDefault()
+                                $(this).tab('show')
+                            });
+                        });
+                    </script>
+                    <div id ="inputForm">
+                        <ul class="nav nav-tabs" id="tabs">
+                          <li role="presentation" class="active"><a href="#status" aria-controls="status" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-pencil"></span>Status</a></li>
+                          <li role="presentation" ><a href = "#photo" aria-controls="photo" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-picture"></span>Photo</a></li>
+                          <li role="presentation"><a href="#lifeEvent" aria-controls="lifeEvent" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-flag"></span>LifeEvent</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="status">
+                                <textarea>
+                                </textarea>
+                                <div class="row" id="btn-bar">
+                                    <div class="col-md-7">
+                                        <a class="btn">
+                                            <span class="glyphicon glyphicon-camera"></span>
+                                        </a>
+                                        <a class="btn">
+                                            <span class="glyphicon glyphicon-user"></span>
+                                        </a>
+                                        <a class="btn">
+                                            <span class="glyphicon glyphicon-heart-empty"></span>
+                                        </a>
+                                        <a class="btn">
+                                            <span class="glyphicon glyphicon-map-marker"></span>
+                                        </a>
+                                        <a class="btn">
+                                            <span class="glyphicon glyphicon-dashboard"></span>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="btn-group">
+                                          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <span class="glyphicon glyphicon-globe"></span>&nbsp;&nbsp;Public <span class="caret"></span>
+                                          </button>
+                                          <ul class="dropdown-menu">
+                                            <li><a href="#">Who can see this</a></li>
+                                            <li role="separator" class="divider"></li>
+                                            <li>
+                                                <a href="#"><span class="glyphicon glyphicon-globe"></span>&nbsp;&nbsp;Public</a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Friends</a>
+                                              </li>
+                                            <li>
+                                                <a href="#"><span class="glyphicon glyphicon-scale"></span>&nbsp;&nbsp;Only Me</a>
+                                            </li>
+                                            <li role="separator" class="divider"></li>
+                                            <li><a href="#">More</a></li>
+                                          </ul>
+                                        </div>
+                                        <a class="btn btn-primary">
+                                            Post
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="photo">
+                                <div class="container-fluid">
+                                    <div class="col-md-6">
+                                        <a>Upload Photo/ Video</a>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <a>Create Photo Album</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="lifeEvent">
+                                <div class="list-group">
+                                  <a href="#" class="list-group-item">
+                                      <span class="glyphicon glyphicon-cog"></span> Work & Education<span class="badge">></span>
+                                    </a>
+                                  <a href="#" class="list-group-item">
+                                      <span class="glyphicon glyphicon-heart"></span> Family & Relationships <span class="badge">></span>
+                                    </a>
+                                  <a href="#" class="list-group-item">
+                                      <span class="glyphicon glyphicon-leaf"></span> Health & Experiences<span class="badge">></span>
+                                    </a>
+                                  <a href="#" class="list-group-item">
+                                      <span class="glyphicon glyphicon-home"></span> Home & Living<span class="badge">></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -175,7 +310,9 @@
     <footer>
         Footer
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
     </body>
 </html>
