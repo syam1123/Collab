@@ -71,3 +71,46 @@ a:hover{
    background-color: black;
    box-shadow: 1px 1px #888888;
 }
+
+
+/*Sravan*/
+
+textarea{
+     width: 100%;
+ }
+#inputForm{
+    background-color: #dfe3ee;
+}
+.nav > .active{
+    background-color: transparent;
+}
+#photo > .container-fluid{
+    height: 8em;
+    background-color: white;
+}
+
+
+.container-fluid > .col-md-6{
+    text-align: center;
+    height: 100%;
+    vertical-align: middle;
+}
+.container-fluid > .col-md-6:hover{
+    
+    background-color: #dfe3ee;
+}
+body{
+    background-color: #dfe3ee;
+}
+
+#btn-bar{
+    display: none;
+}
+#status:hover #btn-bar{
+    display: block;
+}
+#inputForm{
+    border-width: thin;
+    border-style: solid;
+    border-color: lightgray;
+}

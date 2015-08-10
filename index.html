@@ -193,8 +193,99 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-5">
-                    Sravan
+                <div class="col-md-7">
+                    
+                    <script>
+                        $(document).ready(function(){
+                            $('#myTab a').click(function (e) {
+                                e.preventDefault()
+                                $(this).tab('show')
+                            });
+                        });
+                    </script>
+                    <div id ="inputForm">
+                        <ul class="nav nav-tabs" id="tabs">
+                          <li role="presentation" class="active"><a href="#status" aria-controls="status" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-pencil"></span>Status</a></li>
+                          <li role="presentation" ><a href = "#photo" aria-controls="photo" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-picture"></span>Photo</a></li>
+                          <li role="presentation"><a href="#lifeEvent" aria-controls="lifeEvent" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-flag"></span>LifeEvent</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="status">
+                                <textarea>
+                                </textarea>
+                                <div class="row" id="btn-bar">
+                                    <div class="col-md-7">
+                                        <a class="btn">
+                                            <span class="glyphicon glyphicon-camera"></span>
+                                        </a>
+                                        <a class="btn">
+                                            <span class="glyphicon glyphicon-user"></span>
+                                        </a>
+                                        <a class="btn">
+                                            <span class="glyphicon glyphicon-heart-empty"></span>
+                                        </a>
+                                        <a class="btn">
+                                            <span class="glyphicon glyphicon-map-marker"></span>
+                                        </a>
+                                        <a class="btn">
+                                            <span class="glyphicon glyphicon-dashboard"></span>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="btn-group">
+                                          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <span class="glyphicon glyphicon-globe"></span>&nbsp;&nbsp;Public <span class="caret"></span>
+                                          </button>
+                                          <ul class="dropdown-menu">
+                                            <li><a href="#">Who can see this</a></li>
+                                            <li role="separator" class="divider"></li>
+                                            <li>
+                                                <a href="#"><span class="glyphicon glyphicon-globe"></span>&nbsp;&nbsp;Public</a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Friends</a>
+                                              </li>
+                                            <li>
+                                                <a href="#"><span class="glyphicon glyphicon-scale"></span>&nbsp;&nbsp;Only Me</a>
+                                            </li>
+                                            <li role="separator" class="divider"></li>
+                                            <li><a href="#">More</a></li>
+                                          </ul>
+                                        </div>
+                                        <a class="btn btn-primary">
+                                            Post
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="photo">
+                                <div class="container-fluid">
+                                    <div class="col-md-6">
+                                        <a>Upload Photo/ Video</a>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <a>Create Photo Album</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="lifeEvent">
+                                <div class="list-group">
+                                  <a href="#" class="list-group-item">
+                                      <span class="glyphicon glyphicon-cog"></span> Work & Education<span class="badge">></span>
+                                    </a>
+                                  <a href="#" class="list-group-item">
+                                      <span class="glyphicon glyphicon-heart"></span> Family & Relationships <span class="badge">></span>
+                                    </a>
+                                  <a href="#" class="list-group-item">
+                                      <span class="glyphicon glyphicon-leaf"></span> Health & Experiences<span class="badge">></span>
+                                    </a>
+                                  <a href="#" class="list-group-item">
+                                      <span class="glyphicon glyphicon-home"></span> Home & Living<span class="badge">></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
