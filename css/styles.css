@@ -1,1 +1,21 @@
 /*you guys can add your own styles here*/
+#head{
+  background-color: #3b5998;
+  margin-left: 0;
+  padding-top: 5px;
+  padding-left: 0;
+}
+#profile{
+  background-color: #3b5998;
+  margin-left: 0;
+  padding-top: 10px;
+  font-size: 16px;
+}
+.drop{
+	display: inline;
+}
+.logo{
+	padding-left: 50px;
+	margin-left: 50px;
+	text-align: right;
+}
