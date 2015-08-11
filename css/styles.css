@@ -155,5 +155,7 @@ body{
 }
 
 article{
-    margin-top: 5px;
+    margin-top: 15px;
+    background-color: white;
+    padding: 5px;
 }
