@@ -24,12 +24,11 @@ a:hover{
 	text-align: right;
 }
 .cover{
-	padding-left: 2%;
-	margin-left: 10%;
+	/*padding-left: 2%;
+	margin-left: 10%;*/
 	background-image: url("../img/cover.jpg");
 	height: 315px;
-	width: 851px;
-	padding-bottom: 0;    
+	width: 100%;  
 
 }
 #hover-content {
@@ -132,7 +131,7 @@ body{
 }
 .edit_buttons_span:hover
 {
-    background: #3b5998;
+    background-color: #3b5998;
     color: white;
     border-radius: 3px;
     width: 23px;
@@ -142,7 +141,6 @@ body{
 {
     color: darkgrey;
     margin-top: 0px;
-    background-color: transparent;
     border: none;
     display: block;
 }
@@ -172,4 +170,12 @@ body{
   vertical-align: middle;
   background-color: red;
   border-radius: 1px;
+
+
+article{
+    margin-top: 10px;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid #b8b2b2; 
+    border-radius: 5px; 
 }
