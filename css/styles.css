@@ -1,0 +1,174 @@
+/*you guys can add your own styles here*/
+a:hover{
+	text-decoration: blink;
+	color: black;	
+}
+#head{
+  background-color: #3b5998;
+  margin-left: 0;
+  padding-top: 5px;
+  padding-left: 0;
+}
+#profile{
+  background-color: #3b5998;
+  margin-left: 0;
+  padding-top: 10px;
+  font-size: 16px;
+}
+.drop{
+	display: inline;
+}
+.logo{
+	padding-left: 50px;
+	margin-left: 50px;
+	text-align: right;
+}
+.cover{
+	padding-left: 2%;
+	margin-left: 10%;
+	background-image: url("../img/cover.jpg");
+	height: 315px;
+	width: 851px;
+	padding-bottom: 0;    
+
+}
+#hover-content {
+    display:none;
+    padding-left: 2%;
+}
+#parent:hover #hover-content {
+    display:inline;
+
+}
+#parent-content{
+	padding-left: 2%;
+	display: inline;
+}
+#parent:hover #parent-content{
+	display: none;
+}
+.camera-color{
+	color: white;
+
+}
+#coverpic{
+	background-color: rgba(0,0,0,.8);
+	width: 25%;
+	height: 33px;
+	display: inline-block;
+	border:2px 2px;
+	border-left: 10%;
+	border-style: 1px solid black;
+	padding left: %;
+}
+#covertop{
+	min-height: 300px;
+	max-height: 315px;
+}
+#image {
+   padding:1px;
+   border:4px solid white;
+   background-color: black;
+   box-shadow: 1px 1px #888888;
+}
+
+
+/*Sravan*/
+
+textarea{
+     width: 100%;
+ }
+#inputForm{
+    background-color: #dfe3ee;
+}
+.nav > .active{
+    background-color: transparent;
+}
+#photo > .container-fluid{
+    height: 8em;
+    background-color: white;
+}
+
+
+.container-fluid > .col-md-6{
+    text-align: center;
+    height: 100%;
+    vertical-align: middle;
+}
+.container-fluid > .col-md-6:hover{
+    
+    background-color: #dfe3ee;
+}
+body{
+    background-color: #dfe3ee;
+}
+
+#btn-bar{
+    display: none;
+}
+#status:hover #btn-bar{
+    display: block;
+}
+#inputForm{
+    border-width: thin;
+    border-style: solid;
+    border-color: lightgray;
+}
+.buttons_left_bar
+{
+    margin-left: -5px;
+    margin-top: -4px;
+}
+.edit_buttons_div
+{
+    border: none;
+    display: block;
+}
+.edit_buttons_span
+{
+    margin-left: -5px;
+    margin-top: -2px;
+    display: none;
+}
+.edit_buttons_span:hover
+{
+    background-color: #3b5998;
+    color: white;
+    border-radius: 3px;
+    width: 23px;
+    height: 23px;
+}
+.edit_buttons_div:hover .edit_buttons_span
+{
+    color: darkgrey;
+    margin-top: 0px;
+    border: none;
+    display: block;
+}
+.image {
+    position:relative;
+}
+.image .text {
+    position:absolute;
+    top:10px;
+    left:10px;
+    width:300px;
+}
+.update{
+	
+	margin-left: 10%;
+}
+.badge_log {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: red;
+  border-radius: 1px;
+}

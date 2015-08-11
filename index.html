@@ -1,7 +1,745 @@
 <!DOCTYPE html>
 <html>
-    <head>
-    </head>
-    <body>
+<head>
+    <link rel="shortcut icon" href="k">
+    <title>
+    	Facebook
+    </title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</head>
+    <body style="background: #dfe3ee;">
+    <div class="container-fluid" id="head" height="50px">
+        <div class="container-fluid" height="50px" style="background-position: 0px 0px;">
+            <div class="row">
+                <div class="col-xs-2 col-sm-2 logo"> <a href=""><img src="img/logo.png" height="50px"></a></div>
+                    <div class="col-xs-6 col-md-4 col-sm-4" id="head">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search on Facebook">
+                            <span class="input-group-btn">
+                            	<button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                            </span>
+            			</div>
+            		</div>
+            		<div class="hidden-xs col-md-1"></div>
+            		<!-- this division will be hidden on mobile view-->
+
+            		
+            		
+            		<div class="hidden-xs col-md-4 dropdown" id="profile">
+            			<b><span><a class="" href="#" role="button"><img src="img/profile.jpeg" height="30px" width="30px">&nbsp;<font color="white" size="2">Name</font></a></span>&nbsp;<!--<span class="glyphicon glyphicon-option-vertical" aria-hidden="true"></span>--> |
+            			<span><a class="" href="#" role="button"><font color="white" size="2">Home</font></a></span>&nbsp;&nbsp;&nbsp;
+            		    </b>
+
+            		   <div class="dropdown drop">
+  							<span class="" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    							<a href=""> <span class="glyphicon glyphicon-user" aria-hidden="true"></span> </a>&nbsp;
+    
+  							</span>
+
+						    <ul class="dropdown-menu " aria-labelledby="dropdownMenu1">
+							   <li><a href="#">Action</a></li>
+							   <li><a href="#">Another action</a></li>
+							   <li><a href="#">Something else here</a></li>
+							   <li><a href="#">Separated link</a></li>
+							</ul>
+						</div>
+            		    <div class="dropdown drop">
+  							<span class="" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    							<a href=""> <span class="glyphicon glyphicon-comment" aria-hidden="true"></span> </a>&nbsp;
+    
+  							</span>
+						    <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
+							   <li><a href="#">Action</a></li>
+							   <li><a href="#">Another action</a></li>
+							   <li><a href="#">Something else here</a></li>
+							   <li><a href="#">Separated link</a></li>
+							</ul>
+						</div>
+                      <div class="dropdown drop">
+  							<span class="" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    							<a href=""> <span class="glyphicon glyphicon-globe" aria-hidden="true"><span class="btn-danger badge">1</span></span> </a>&nbsp;
+    
+  							</span>
+						    <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
+							   <li><a href="#"><img src="images/chat1.jpg" width="10%">Manu Changed Profile pic<img src="images/chat1.jpg" width="10%"></a></li>
+							   <li><a href="#">Another action</a></li>
+							   <li><a href="#">Something else here</a></li>
+							   <li><a href="#">Separated link</a></li>
+							</ul>
+						</div>
+                      <!--<span class="glyphicon glyphicon-option-vertical" aria-hidden="true"></span>-->|&nbsp;&nbsp;
+                   
+                    
+                    	<div class="dropdown drop">
+  							<span class="" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    							<a href=""> <span class="glyphicon glyphicon-lock" aria-hidden="true"></span> </a>&nbsp;
+    
+  							</span>
+						    <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
+							   <li><a href="#">Action</a></li>
+							   <li><a href="#">Another action</a></li>
+							   <li><a href="#">Something else here</a></li>
+							   <li><a href="#">Separated link</a></li>
+							</ul>
+						</div>
+                    	<div class="dropdown drop">
+  							<span class="" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    							<a href=""> <span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span> </a>&nbsp;
+    
+  							</span>
+						    <ul class="dropdown-menu hover dropdown-menu-right" aria-labelledby="dropdownMenu1">
+							   <li><a href="#">Create Group</a></li>
+							   <li><a href="#">New Groups</a></li>
+							   <li role="separator" class="divider"></li>
+							   <li><a href="#">Create Page</a></li>
+							   <li><a href="#">Manage Page</a></li>
+							   <li role="separator" class="divider"></li>
+							   <li><a href="#">Create Add</a></li>
+							   <li><a href="#">Advertising on Facebook</a></li>
+							   <li role="separator" class="divider"></li>
+							   <li><a href="#">Activity Log</a></li>
+							   <li><a href="#">News feed Preferences</a></li>
+							   <li><a href="#">Settings</a></li>
+							   <li><a href="#">Logout</a></li>
+							   <li role="separator" class="divider"></li>
+							   <li><a href="#">Help</a></li>
+							   <li><a href="#">Support Inbox</a></li>
+							   <li><a href="#">Report Problem</a></li>
+							</ul>
+						</div>
+                    
+                    
+                    <div style="float: left; position: absolute;" class="col-xs-1 visible-xs visible-sm dropdown minimize open">
+                    
+						   
+						      <button class="btn btn-minim dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						       <span class="glyphicon glyphicon-menu-hamburger"></span>
+						    
+						  </button>
+						  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+						    <li><a href="#">Chat</a></li>
+						    <li><a href="#">Profile</a></li>
+						    <li><a href="#">Messages</a></li>
+						    <li><a href="#">pages</a></li>
+						  </ul>
+					
+                    </div>
+
+           		</div>
+        	</div>
+                
+        	
+
+        </div>
+    </div>
+
+   <div class="row">
+         <div class="col-md-9">
+            <div class="cover">
+                <div id="parent">
+                <br>
+                    <div id="hover-content">
+                          <div id="coverpic">
+                          <a href=""><img src="img/camera.png" width="13%"></a>
+                          <a href="">&nbsp;Change Coverpic</a>
+                          </div>
+
+                        <!--'More' will appear on hover to division parent-->
+                     
+                     </div>
+                     
+                     <div class="camera-color" id="parent-content"><a><img src="img/camera.png" width="4%"></a></div>
+            </div>
+            <br><br><br><br><br><br><br>
+            <img id="image" src="img/profile.jpeg" height="160px" width="160px">
+            <span><font color="white" font size="5.5"> Eldho Syno Istharistho</font>
+            <span class="update">
+            <input class="btn btn-default" type="button" value="Update Info">&nbsp;&nbsp;&nbsp;<div class="btn-group" role="group" aria-label="...">
+                  <button type="button" class="btn btn-default">View Activity Log&nbsp;<span class="badge_log">12</span></button>
+                  
+                  <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span> </button>
+                </div>
+                </span>
+            </span>
+            <br><br>
+            </div><br>
+            <div class="row">
+                <div class="col-md-4">
+                    
+                </div>
+                <div class="col-md-7">
+                    <ul class="nav nav-tabs nav-justified">
+                      <li role="presentation" class="active"><a href="#">Timeline</a></li>
+                      <li role="presentation"><a href="about.html">About</a></li>
+                      <li role="presentation"><a href="#">Friends</a></li>
+                      <li role="presentation"><a href="#">Photos</a></li>
+                      <li role="presentation" class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                          More <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a>Videos</a></li>
+                          <li><a>Places</a></li>
+                          <li><a>Movies</a></li>
+                          <li><a>Music</a></li><li><a>Tv Shows</a></li>
+                          <li><a>Books</a></li><li><a>Apps</a></li>
+                          <li><a>hello</a></li><li><a>hai</a></li>
+                          <li><a>hello</a></li><li><a>hai</a></li>
+                          <li><a>hello</a></li><li><a>hai</a></li>
+                          <li><a>hello</a></li><li><a>hai</a></li>
+                          <li><a>hello</a></li><li><a>hai</a></li>
+                          
+                        </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    
+                </div>
+            </div>
+            <div class="row" style="margin-top: 20px; margin-left: 53px;">
+                <div class="col-md-5" style="margin-left: 30px; padding-right: 0px; padding-left: 5px; width: 335px;">
+                    <ul id="basic_info" style="list-style-type:none; background:white; border: 1px solid #b8b2b2; border-radius: 5px; ">
+                        <li style="margin-left: -30px;" class="edit_buttons_div">
+                            <div class="row" style="margin-top:8px; ">
+                                <div class="col-md-1">
+                                    <span class="glyphicon glyphicon-briefcase" style="color:grey;"></span>
+                                </div>
+                                <div class="col-md-9">
+                                    <p style="font-size: 12px;">
+                                        Software Engineer at
+                                        <a href="#" style="color: #3B5998;  ">
+                                            QBurst Technologies
+                                        </a>
+                                    </p> 
+                                </div>
+                                <div class="col-md-1">
+                                    <button class="edit_buttons_span" data-toggle="tooltip" data-placement="top" title="Edit">
+                                        <span class="glyphicon glyphicon-pencil "></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+                        <li style="margin-left: -30px;" class="edit_buttons_div">
+                            <div class="row" style="margin-top:8px; ">
+                                <div class="col-md-1">
+                                    <span class="glyphicon glyphicon-certificate" style="color:grey;"></span>
+                                </div>
+                                <div class="col-md-9">
+                                    <p style="font-size: 12px;">
+                                        Studied at
+                                        <a href="#" style="color: #3B5998;  ">
+                                            GECI (Government Engineering College, Idukki)
+                                        </a>
+                                        <br/>
+                                        <a href="#" style="color: grey;">
+                                            Attending from 2011 to 2015
+                                        </a>
+                                    </p> 
+                                </div>
+                                <div class="col-md-1">
+                                    <button class="edit_buttons_span" data-toggle="tooltip" data-placement="top" title="Edit">
+                                        <span class="glyphicon glyphicon-pencil "></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+                        <li style="margin-left: -30px;" class="edit_buttons_div">
+                            <div class="row" style="margin-top:8px; ">
+                                <div class="col-md-1">
+                                    <span class="glyphicon glyphicon-home" style="color:grey; "></span>
+                                </div>
+                                <div class="col-md-9">
+                                    <p style="font-size: 12px;">
+                                        Lives in
+                                        <a href="#" style="color: #3B5998;  ">
+                                            Idukki township
+                                        </a>
+                                    </p> 
+                                </div>
+                                <div class="col-md-1">
+                                    <button class="edit_buttons_span" data-toggle="tooltip" data-placement="top" title="Edit">
+                                        <span class="glyphicon glyphicon-pencil "></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+                        <li style="margin-left: -30px;" class="edit_buttons_div">
+                            <div class="row" style="margin-top:8px; ">
+                                <div class="col-md-1">
+                                    <span class="glyphicon glyphicon-globe" style="color:grey; "></span>
+                                </div>
+                                <div class="col-md-9">
+                                    <p style="font-size: 12px;">
+                                        From
+                                        <a href="#" style="color: #3B5998;  ">
+                                            Idukki township
+                                        </a>
+                                        <br/>
+                                        <a href="#" style="color: grey;">
+                                            Born on June 7, 1993
+                                        </a>
+                                    </p> 
+                                </div>
+                                <div class="col-md-1">
+                                    <button class="edit_buttons_span" data-toggle="tooltip" data-placement="top" title="Edit">
+                                        <span class="glyphicon glyphicon-pencil "></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+                        <li style="margin-left: -30px;" class="edit_buttons_div">
+                            <div class="row" style="margin-top:8px; ">
+                                <div class="col-md-1">
+                                    <img src="img/wifi.png" style="color:grey; width:12px; margin-top: -4px;">
+                                </div>
+                                <div class="col-md-9">
+                                    <p style="font-size: 12px;">
+                                        Followed by
+                                        <a href="#" style="color: #3B5998;  ">
+                                            18 people
+                                        </a>
+                                    </p> 
+                                </div>
+                                <div class="col-md-1">
+                                    <button class="edit_buttons_span" data-toggle="tooltip" data-placement="top" title="Edit">
+                                        <span class="glyphicon glyphicon-pencil "></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div id="friends_list" class="edit_buttons_div" style="background:white; border: 1px solid #b8b2b2; border-radius: 5px; margin-left: 0px; margin-right: 0px; padding-top: 5px; padding-bottom: 5px; margin-top: -1px;">
+                        <div class="row">
+                            <div class="col-md-10">
+                                    <header>
+                                        <p style=" margin-top:5px; margin-left: 10px;">
+                                            <a href="#" style="color: #4D4D4D; font-family: Arial black; font-style:bold; font-size: 11px;">
+                                                FRIENDS    
+                                            </a>
+                                            .
+                                            <a href="#" style="color: grey; font-size: 9px; ">
+                                                1918    
+                                            </a>
+
+                                        </p>
+                                    </header>
+                            </div>
+                            <div class="col-md-1">
+                                <button class="edit_buttons_span" data-toggle="tooltip" data-placement="top" title="Edit" style="margin-top: 5px; margin-left: -2px;">
+                                    <span class="glyphicon glyphicon-pencil "></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="row" style="">
+                            <div class="col-md-4">
+                                <div class="image" style="margin-top:3px;">
+                                    <a href="#" class="friend_hover"><img class="img-rounded" width="100px" title="Hello" src="img/user.jpg" style="margin-left:5px"/></a>
+                                    <div class="text" style="width: 100px; margin-left: 15px; top: 90px; color: white; 
+    text-ouline: 5px black;">
+                                        <p>User </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="image" style="margin-top:3px;">
+                                    <a href="#" class="friend_hover"><img class="img-rounded" width="100px" title="Hello" src="img/user.jpg" style="margin-left: -5px"/></a>
+                                    <div class="text" style="width: 100px; margin-left: 15px; top: 90px; color: white; 
+    text-ouline: 5px black;">
+                                        <p>User </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="image" style="margin-top:3px;">
+                                    <a href="#" class="friend_hover"><img class="img-rounded" width="100px" title="Hello" src="img/user.jpg" style="margin-left: -15px"/></a>
+                                    <div class="text" style="width: 100px; margin-left: 15px; top: 90px; color: white; 
+    text-ouline: 5px black;">
+                                        <p>User </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" style="">
+                            <div class="col-md-4">
+                                <div class="image" style="margin-top:3px;">
+                                    <a href="#" class="friend_hover"><img class="img-rounded" width="100px" title="Hello" src="img/user.jpg" style="margin-left:5px"/></a>
+                                    <div class="text" style="width: 100px; margin-left: 15px; top: 90px; color: white; 
+    text-ouline: 5px black;">
+                                        <p>User </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="image" style="margin-top:3px;">
+                                    <a href="#" class="friend_hover"><img class="img-rounded" width="100px" title="Hello" src="img/user.jpg" style="margin-left: -5px"/></a>
+                                    <div class="text" style="width: 100px; margin-left: 15px; top: 90px; color: white; 
+    text-ouline: 5px black;">
+                                        <p>User </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="image" style="margin-top:3px;">
+                                    <a href="#" class="friend_hover"><img class="img-rounded" width="100px" title="Hello" src="img/user.jpg" style="margin-left: -15px"/></a>
+                                    <div class="text" style="width: 100px; margin-left: 15px; top: 90px; color: white; 
+    text-ouline: 5px black;">
+                                        <p>User </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" style="">
+                            <div class="col-md-4">
+                                <div class="image" style="margin-top:3px;">
+                                    <a href="#" class="friend_hover"><img class="img-rounded" width="100px" title="Hello" src="img/user.jpg" style="margin-left:5px"/></a>
+                                    <div class="text" style="width: 100px; margin-left: 15px; top: 90px; color: white; 
+    text-ouline: 5px black;">
+                                        <p>User </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="image" style="margin-top:3px;">
+                                    <a href="#" class="friend_hover"><img class="img-rounded" width="100px" title="Hello" src="img/user.jpg" style="margin-left: -5px"/></a>
+                                    <div class="text" style="width: 100px; margin-left: 15px; top: 90px; color: white; 
+    text-ouline: 5px black;">
+                                        <p>User </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="image" style="margin-top:3px;">
+                                    <a href="#" class="friend_hover"><img class="img-rounded" width="100px" title="Hello" src="img/user.jpg" style="margin-left: -15px"/></a>
+                                    <div class="text" style="width: 100px; margin-left: 15px; top: 90px; color: white; 
+    text-ouline: 5px black;">
+                                        <p>User </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="photos" class="edit_buttons_div" style="background:white; border: 1px solid #b8b2b2; border-radius: 5px; margin-left: 0px; margin-right: 0px; padding-top: 5px; padding-bottom: 5px; margin-top: 10px;">
+                        <div class="row">
+                            <div class="col-md-10">
+                                    <header>
+                                        <p style=" margin-top:5px; margin-left: 10px;">
+                                            <a href="#" style="color: #4D4D4D; font-family: Arial black; font-style:bold; font-size: 11px;">
+                                                PHOTOS    
+                                            </a>
+                                            .
+                                            <a href="#" style="color: grey; font-size: 9px; ">
+                                                419    
+                                            </a>
+
+                                        </p>
+                                    </header>
+                            </div>
+                            <div class="col-md-1">
+                                <button class="edit_buttons_span" data-toggle="tooltip" data-placement="top" title="Edit" style="margin-top: 5px; margin-left: -2px;">
+                                    <span class="glyphicon glyphicon-pencil "></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="row" style="">
+                            <div class="col-md-4">
+                                <div class="image" style="margin-top:3px;">
+                                    <a href="#" class="friend_hover"><img class="" width="110px" title="Hello" src="img/photos.png" style="margin-left:0px"/></a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="image" style="margin-top:3px;">
+                                    <a href="#" class="friend_hover"><img class="" width="110px" title="Hello" src="img/photos.png" style="margin-left:-10px"/></a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="image" style="margin-top:3px;">
+                                    <a href="#" class="friend_hover"><img class="" width="110px" title="Hello" src="img/photos.png" style="margin-left:-20px"/></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" style="">
+                            <div class="col-md-4">
+                                <div class="image" style="margin-top:3px;">
+                                    <a href="#" class="friend_hover"><img class="" width="110px" title="Hello" src="img/photos.png" style="margin-left:0px"/></a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="image" style="margin-top:3px;">
+                                    <a href="#" class="friend_hover"><img class="" width="110px" title="Hello" src="img/photos.png" style="margin-left:-10px"/></a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="image" style="margin-top:3px;">
+                                    <a href="#" class="friend_hover"><img class="" width="110px" title="Hello" src="img/photos.png" style="margin-left:-20px"/></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" style="">
+                            <div class="col-md-4">
+                                <div class="image" style="margin-top:3px;">
+                                    <a href="#" class="friend_hover"><img class="" width="110px" title="Hello" src="img/photos.png" style="margin-left:0px"/></a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="image" style="margin-top:3px;">
+                                    <a href="#" class="friend_hover"><img class="" width="110px" title="Hello" src="img/photos.png" style="margin-left:-10px"/></a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="image" style="margin-top:3px;">
+                                    <a href="#" class="friend_hover"><img class="" width="110px" title="Hello" src="img/photos.png" style="margin-left:-20px"/></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="videos" class="edit_buttons_div" style="background:white; border: 1px solid #b8b2b2; border-radius: 5px; margin-left: 0px; margin-right: 0px; padding-top: 5px; padding-bottom: 5px; margin-top: 10px;">
+                        <div class="row">
+                            <div class="col-md-10">
+                                    <header>
+                                        <p style=" margin-top:5px; margin-left: 10px;">
+                                            <a href="#" style="color: #4D4D4D; font-family: Arial black; font-style:bold; font-size: 11px;">
+                                                VIDEOS    
+                                            </a>
+                                            .
+                                            <a href="#" style="color: grey; font-size: 9px; ">
+                                                8    
+                                            </a>
+
+                                        </p>
+                                    </header>
+                            </div>
+                            <div class="col-md-1">
+                                <button class="edit_buttons_span" data-toggle="tooltip" data-placement="top" title="Edit" style="margin-top: 5px; margin-left: -2px;">
+                                    <span class="glyphicon glyphicon-pencil "></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="row" style="">
+                            <div class="col-md-4">
+                                <div class="image" style="margin-top:3px;">
+                                    <a href="#" class="friend_hover"><img class="" width="110px" title="Hello" src="img/video.png" style="margin-left:0px"/></a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="image" style="margin-top:3px;">
+                                    <a href="#" class="friend_hover"><img class="" width="110px" title="Hello" src="img/video.png" style="margin-left:-10px"/></a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="image" style="margin-top:3px;">
+                                    <a href="#" class="friend_hover"><img class="" width="110px" title="Hello" src="img/video.png" style="margin-left:-20px"/></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="places" class="edit_buttons_div" style="background:white; border: 1px solid #b8b2b2; border-radius: 5px; margin-left: 0px; margin-right: 0px; padding-top: 5px; padding-bottom: 5px; margin-top: 10px;">
+                        <div class="row">
+                            <div class="col-md-10">
+                                    <header>
+                                        <p style=" margin-top:5px; margin-left: 10px;">
+                                            <a href="#" style="color: #4D4D4D; font-family: Arial black; font-style:bold; font-size: 11px;">
+                                                PLACES    
+                                            </a>
+                                        </p>
+                                    </header>
+                            </div>
+                            <div class="col-md-1">
+                                <button class="edit_buttons_span" data-toggle="tooltip" data-placement="top" title="Edit" style="margin-top: 5px; margin-left: -2px;">
+                                    <span class="glyphicon glyphicon-pencil "></span>
+                                </button>
+                            </div>
+                        </div>
+                        <ul style="list-style-type:none;">
+                            <li class="list-group-item" style="margin-left: -40px">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <img src="img/kanyakumari.jpg" width="60px" height="60px" style="margin-left: -15px; margin-top: -9px; margin-bottom: -9px;">
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item" style="margin-left: -40px">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <img src="img/kulamavu.JPG" width="60px" height="60px" style="margin-left: -15px; margin-top: -9px; margin-bottom: -9px;">
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-7">                    
+                    <script>
+                        $(document).ready(function(){
+                            $('#myTab a').click(function (e) {
+                                e.preventDefault()
+                                $(this).tab('show')
+                            });
+                        });
+                    </script>
+                    <div id ="inputForm">
+                        <ul class="nav nav-tabs" id="tabs">
+                          <li role="presentation" class="active"><a href="#status" aria-controls="status" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-pencil"></span>Status</a></li>
+                          <li role="presentation" ><a href = "#photo" aria-controls="photo" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-picture"></span>Photo</a></li>
+                          <li role="presentation"><a href="#lifeEvent" aria-controls="lifeEvent" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-flag"></span>LifeEvent</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="status">
+                                <textarea>
+                                </textarea>
+                                <div class="row" id="btn-bar">
+                                    <div class="col-md-7">
+                                        <a class="btn">
+                                            <span class="glyphicon glyphicon-camera"></span>
+                                        </a>
+                                        <a class="btn">
+                                            <span class="glyphicon glyphicon-user"></span>
+                                        </a>
+                                        <a class="btn">
+                                            <span class="glyphicon glyphicon-heart-empty"></span>
+                                        </a>
+                                        <a class="btn">
+                                            <span class="glyphicon glyphicon-map-marker"></span>
+                                        </a>
+                                        <a class="btn">
+                                            <span class="glyphicon glyphicon-dashboard"></span>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="btn-group">
+                                          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <span class="glyphicon glyphicon-globe"></span>&nbsp;&nbsp;Public <span class="caret"></span>
+                                          </button>
+                                          <ul class="dropdown-menu">
+                                            <li><a href="#">Who can see this</a></li>
+                                            <li role="separator" class="divider"></li>
+                                            <li>
+                                                <a href="#"><span class="glyphicon glyphicon-globe"></span>&nbsp;&nbsp;Public</a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Friends</a>
+                                              </li>
+                                            <li>
+                                                <a href="#"><span class="glyphicon glyphicon-scale"></span>&nbsp;&nbsp;Only Me</a>
+                                            </li>
+                                            <li role="separator" class="divider"></li>
+                                            <li><a href="#">More</a></li>
+                                          </ul>
+                                        </div>
+                                        <a class="btn btn-primary">
+                                            Post
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="photo">
+                                <div class="container-fluid">
+                                    <div class="col-md-6">
+                                        <a>Upload Photo/ Video</a>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <a>Create Photo Album</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="lifeEvent">
+                                <div class="list-group">
+                                  <a href="#" class="list-group-item">
+                                      <span class="glyphicon glyphicon-cog"></span> Work & Education<span class="badge">></span>
+                                    </a>
+                                  <a href="#" class="list-group-item">
+                                      <span class="glyphicon glyphicon-heart"></span> Family & Relationships <span class="badge">></span>
+                                    </a>
+                                  <a href="#" class="list-group-item">
+                                      <span class="glyphicon glyphicon-leaf"></span> Health & Experiences<span class="badge">></span>
+                                    </a>
+                                  <a href="#" class="list-group-item">
+                                      <span class="glyphicon glyphicon-home"></span> Home & Living<span class="badge">></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <article class="fb-post">
+                        <header class="container-fluid">
+                            <div class="col-md-10">
+                                <div class="row">
+                                    <div class="col-md-1">
+                                        <span class="glyphicon glyphicon-user"></span>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="row">
+                                            <a class="links"><b>Name Last</b></a>
+                                        </div>
+                                        <div class="row">
+                                            <a class="grey-text">Time</a>
+                                            <a class="grey-text">Privacy</a>
+                                        </div>
+                                    </div>
+                                </div>                        
+                            </div>
+                            <div class="col-md-1 dropdown">
+                                <button class="btn" data-toggle="dropdown">
+                                    <span class="glyphicon glyphicon-menu-down"></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <div class="row post-content">
+                                            <div class="col-md-3 header-item"><span class="glyphicon glyphicon-download-alt"></span></div>
+                                            <div class="col-md-5 col-md-offset-4"><a href="#">Save</a></div>
+                                        </div>
+                                        <div class="row post-content">
+                                            <div class="col-md-3 header-item"><span class="glyphicon glyphicon-trash"></span></div>
+                                            <div class="col-md-5 col-md-offset-4"><a href="#">Delete</a></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                    </li>
+                                </ul>
+                            </div>
+                        </header>
+                        <section class="post-content">
+                            <p>But would you kindly ponder this question: What would your good do if
+                                evil didn't exist, and what would the earth look like if all the shadows
+                                disappeared? After all, shadows are cast by things and people. Here is the
+                                shadow of my sword. But shadows also come from trees and living beings.
+                                Do you want to strip the earth of all trees and living things just because
+                                of your fantasy of enjoying naked light? You're stupid
+                            </p>
+                            <figure>
+                                <img class = "img-responsive" src="img/fig.png">
+                            </figure>
+                            <footer class="container"><a class="grey-text">X likes y comments z shares</a></footer>
+                        </section>
+                        <section class="container-fluid ">
+                            <a class="grey-text"><span class="glyphicon glyphicon-thumbs-up"></span>Like</a>
+                            <a class="grey-text"><span class="glyphicon glyphicon-share"></span>Share</a>
+                            <a class="grey-text"><span class="glyphicon glyphicon-list"></span>Comment</a>
+                        </section>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-1">
+            Ads
+        </div>
+        <div class="col-md-2">
+            Online
+        </div>
+    </div>
+    <footer>
+        Footer
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
     </body>
 </html>
