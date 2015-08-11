@@ -12,7 +12,9 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 </head>
-    <body style="background: #dfe3ee;">
+<body style="background: #dfe3ee;">
+    
+    <!--Page header(the blue nav bar at top)-->
     <div class="container-fluid" id="head" height="50px">
         <div class="container-fluid" height="50px" style="background-position: 0px 0px;">
             <div class="row">
@@ -137,9 +139,14 @@
 
         </div>
     </div>
-
-   <div class="row">
-         <div class="col-md-9">
+    
+    <!--main-->
+    <div class="row">
+        
+        <!--Cover and stuff physically below it-->
+        <div class="col-md-8 col-md-offset-1">
+            
+            <!--cover and it's descendents-->
             <div class="cover">
                 <div id="parent">
                 <br>
@@ -158,12 +165,11 @@
             <br><br><br><br><br><br><br>
             <img id="image" src="img/profile.jpeg" height="160px" width="160px">
             <br><br>
-            </div><br>
+            </div>
+            
+            <!--nav below cover-->
             <div class="row">
-                <div class="col-md-4">
-                    
-                </div>
-                <div class="col-md-7">
+                <div class="col-md-7 col-md-offset-3">
                     <ul class="nav nav-tabs nav-justified">
                       <li role="presentation" class="active"><a href="#">Timeline</a></li>
                       <li role="presentation"><a href="about.html">About</a></li>
@@ -180,12 +186,13 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-3">
-                    
-                </div>
             </div>
-            <div class="row" style="margin-top: 20px; margin-left: 53px;">
-                <div class="col-md-5" style="margin-left: 30px; padding-right: 0px; padding-left: 5px; width: 335px;">
+            
+            <!--pots and col left to it-->
+            <div class="row" style="margin-top: 20px;">
+                
+                <!--Left info-->
+                <div class="col-md-5" style="padding-right: 0px; padding-left: 5px; ">
                     <ul id="basic_info" style="list-style-type:none; background:white; border: 1px solid #b8b2b2; border-radius: 5px; ">
                         <li style="margin-left: -30px;" class="edit_buttons_div">
                             <div class="row" style="margin-top:8px; ">
@@ -556,6 +563,8 @@
                         </ul>
                     </div>
                 </div>
+                
+                <!--Posts-->
                 <div class="col-md-7">                    
                     <script>
                         $(document).ready(function(){
@@ -709,19 +718,22 @@
                 </div>
             </div>
         </div>
+        
+        <!--The ads col-->
         <div class="col-md-1">
             Ads
         </div>
+        
+        <!--chat coloum-->
         <div class="col-md-2">
             Online
         </div>
     </div>
+    
+    
+    <!--footer-->
     <footer>
         Footer
     </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-
     </body>
 </html>

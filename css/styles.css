@@ -24,12 +24,11 @@ a:hover{
 	text-align: right;
 }
 .cover{
-	padding-left: 2%;
-	margin-left: 10%;
+	/*padding-left: 2%;
+	margin-left: 10%;*/
 	background-image: url("../img/cover.jpg");
 	height: 315px;
-	width: 851px;
-	padding-bottom: 0;    
+	width: 100%;  
 
 }
 #hover-content {
@@ -153,4 +152,8 @@ body{
     top:10px;
     left:10px;
     width:300px;
+}
+
+article{
+    margin-top: 5px;
 }
