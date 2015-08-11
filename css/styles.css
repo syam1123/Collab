@@ -51,9 +51,9 @@ a:hover{
 
 }
 #coverpic{
-	background-color: rgba(0,0,0,.8);
+	background-color: rgba(0,0,0,.3);
 	width: 25%;
-	height: 33px;
+	height: 36px;
 	display: inline-block;
 	border:2px 2px;
 	border-left: 10%;
