@@ -35,9 +35,9 @@
             		
             		
             		<div class="hidden-xs col-md-4 dropdown" id="profile">
-            			<span><a class="" href="#" role="button"><img src="img/profile.jpeg" height="30px" width="30px">&nbsp;<font color="white" size="2">Name</font></a></span>&nbsp;<!--<span class="glyphicon glyphicon-option-vertical" aria-hidden="true"></span>--> 
+            			<b><span><a class="" href="#" role="button"><img src="img/profile.jpeg" height="30px" width="30px">&nbsp;<font color="white" size="2">Name</font></a></span>&nbsp;<!--<span class="glyphicon glyphicon-option-vertical" aria-hidden="true"></span>--> |
             			<span><a class="" href="#" role="button"><font color="white" size="2">Home</font></a></span>&nbsp;&nbsp;&nbsp;
-            		    
+            		    </b>
 
             		   <div class="dropdown drop">
   							<span class="" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
@@ -161,26 +161,45 @@
                      
                      <div class="camera-color" id="parent-content"><a><img src="img/camera.png" width="4%"></a></div>
             </div>
-            <br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <img id="image" src="img/profile.jpeg" height="160px" width="160px">
+            <span><font color="white" font size="5.5"> Eldho Syno Istharistho</font>
+            <span class="update">
+            <input class="btn btn-default" type="button" value="Update Info">&nbsp;&nbsp;&nbsp;<div class="btn-group" role="group" aria-label="...">
+                  <button type="button" class="btn btn-default">View Activity Log&nbsp;<span class="badge_log">12</span></button>
+                  
+                  <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span> </button>
+                </div>
+                </span>
+            </span>
             <br><br>
             </div>
             
             <!--nav below cover-->
             <div class="row">
                 <div class="col-md-7 col-md-offset-3">
+
                     <ul class="nav nav-tabs nav-justified">
-                      <li role="presentation" class="active"><a href="#">Timeline</a></li>
-                      <li role="presentation"><a href="about.html">About</a></li>
-                      <li role="presentation"><a href="#">Friends</a></li>
-                      <li role="presentation"><a href="#">Photos</a></li>
+                      <li role="presentation" class="active"><a href="#"><b>Timeline</b></a></li>
+                      <li role="presentation"><a href="about.html"><b>About</b></a></li>
+                      <li role="presentation"><a href="#"><b>Friends</b></a></li>
+                      <li role="presentation"><a href="#"><b>Photos</b></a></li>
                       <li role="presentation" class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                          More <span class="caret"></span>
+                          <b>More</b> <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu">
-                          <li>hai</li>
-                          <li>hello</li>
+                          <li><a>Videos</a></li>
+                          <li><a>Places</a></li>
+                          <li><a>Movies</a></li>
+                          <li><a>Music</a></li><li><a>Tv Shows</a></li>
+                          <li><a>Books</a></li><li><a>Apps</a></li>
+                          <li><a>hello</a></li><li><a>hai</a></li>
+                          <li><a>hello</a></li><li><a>hai</a></li>
+                          <li><a>hello</a></li><li><a>hai</a></li>
+                          <li><a>hello</a></li><li><a>hai</a></li>
+                          <li><a>hello</a></li><li><a>hai</a></li>
+                          
                         </ul>
                         </li>
                     </ul>
@@ -733,22 +752,348 @@
                             <a class="grey-text"><span class="glyphicon glyphicon-list"></span>Comment</a>
                         </section>
                     </article>
+                    <article>
+                        <header class="container-fluid">
+                            <div class="col-md-10">
+                                <div class="row">
+                                    <div class="col-md-1">
+                                        <span class="glyphicon glyphicon-user"></span>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="row">
+                                            <a class="links"><b>Name Last</b></a>
+                                        </div>
+                                        <div class="row">
+                                            <a class="grey-text">Time</a>
+                                            <a class="grey-text">Privacy</a>
+                                        </div>
+                                    </div>
+                                </div>                        
+                            </div>
+                            <div class="col-md-1 dropdown">
+                                <button class="btn" data-toggle="dropdown">
+                                    <span class="glyphicon glyphicon-menu-down"></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <div class="row post-content">
+                                            <div class="col-md-3 header-item"><span class="glyphicon glyphicon-download-alt"></span></div>
+                                            <div class="col-md-5 col-md-offset-4"><a href="#">Save</a></div>
+                                        </div>
+                                        <div class="row post-content">
+                                            <div class="col-md-3 header-item"><span class="glyphicon glyphicon-trash"></span></div>
+                                            <div class="col-md-5 col-md-offset-4"><a href="#">Delete</a></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                    </li>
+                                </ul>
+                            </div>
+                        </header>
+                        <section class="post-content">
+                            <p> Every reader, as he reads, is actually the reader of himself. The writer's work is only a kind of optical instrument he provides the reader so he can discern what he might never have seen in himself without this book. The reader's recognition in himself of what the book says is the proof of the book's truth.
+                            </p>
+                            <footer class="container"><a class="grey-text">X likes y comments z shares</a></footer>
+                        </section>
+                        <section class="container-fluid ">
+                            <a class="grey-text"><span class="glyphicon glyphicon-thumbs-up"></span>Like</a>
+                            <a class="grey-text"><span class="glyphicon glyphicon-share"></span>Share</a>
+                            <a class="grey-text"><span class="glyphicon glyphicon-list"></span>Comment</a>
+                        </section>
+                    </article>
+                    <article>
+                        <header class="container-fluid">
+                            <div class="col-md-10">
+                                <div class="row">
+                                    <div class="col-md-1">
+                                        <span class="glyphicon glyphicon-user"></span>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="row">
+                                            <a class="links"><b>Name Last</b></a>
+                                        </div>
+                                        <div class="row">
+                                            <a class="grey-text">Time</a>
+                                            <a class="grey-text">Privacy</a>
+                                        </div>
+                                    </div>
+                                </div>                        
+                            </div>
+                            <div class="col-md-1 dropdown">
+                                <button class="btn" data-toggle="dropdown">
+                                    <span class="glyphicon glyphicon-menu-down"></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <div class="row post-content">
+                                            <div class="col-md-3 header-item"><span class="glyphicon glyphicon-download-alt"></span></div>
+                                            <div class="col-md-5 col-md-offset-4"><a href="#">Save</a></div>
+                                        </div>
+                                        <div class="row post-content">
+                                            <div class="col-md-3 header-item"><span class="glyphicon glyphicon-trash"></span></div>
+                                            <div class="col-md-5 col-md-offset-4"><a href="#">Delete</a></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                    </li>
+                                </ul>
+                            </div>
+                        </header>
+                        <section class="post-content" >
+                            <p> Funny Dubsmash video.
+                            </p>
+                            <video width="100%">
+                                <source src="img/video.webm" type="video/webm"/>
+                                your browser doesn't support videos
+                            </video>
+                            <footer class="container"><a class="grey-text">yyy views</a></footer>
+                        </section>
+                        <section class="container-fluid ">
+                            <a class="grey-text"><span class="glyphicon glyphicon-thumbs-up"></span>Like</a>
+                            <a class="grey-text"><span class="glyphicon glyphicon-share"></span>Share</a>
+                            <a class="grey-text"><span class="glyphicon glyphicon-list"></span>Comment</a>
+                        </section>
+                    </article>
                 </div>
             </div>
         </div>
         
         <!--The ads col-->
-        <div class="col-md-1">
+        <div class="col-md-1" style="padding-left: 0px;">
             <div>
-                <ul>
-                    hai
+                <ul style="padding-left: 0px; list-style-type:none;">
+                    <li>
+                        &nbsp;
+                    </li>
+                    <li>
+                        <header class="">
+                            <a href="#" style="color: grey; font-family: Arial black;  font-size: 11px;">
+                                Sponsored <span class="glyphicon glyphicon-headphones"></span>
+                            </a>
+                        </header>
+                    </li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">
+                        <img src="img/ebay.png" width="120px"></a>
+                    </li>
+                    <li>
+                        <a href="#" style="font-size: 10px; font-style: bold; color: #3B5998;">
+                            START UP EXHIBIT <br/>
+                            surgeconf.com
+                        </a>
+                        <p>
+                            <a href="#" style="font-size: 9px; font-style: bold; color: black;">
+                                START UP in India ? Exhibit FREE as a part of ALPHA at SURGE in Banglore. Enter your Mail.
+                            </a>
+                        </p>
+                    </li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">
+                        <img src="img/flipkart.jpg" width="120px"></a>
+                    </li>
+                    <li>
+                        <a href="#" style="font-size: 10px; font-style: bold; color: #3B5998;">
+                            <b>Arttime Awesome August </b><br/>
+                            arttime.pro
+                        </a>
+                        <p>
+                            <a href="#" style="font-size: 9px; font-style: bold; color: black;">
+                                Make your internet radio station with double storage and listeners by August 31. Try free.
+                            </a>
+                        </p>
+                    </li>
+                    <li>
+                        &nbsp;
+                    </li>
+                    <li><a href="#">
+                        <img src="img/amazon.jpg" width="120px"></a>                        
+                    </li>
+                    <li>
+                        <a href="#" style="font-size: 10px; font-style: bold; color: #3B5998;">
+                            <b>Genomics analysis made ... </b><br/>
+                            insilcodb.com
+                        </a>
+                        <p>
+                            <a href="#" style="font-size: 9px; font-style: bold; color: black;">
+                                Bacome a better biologist by getting started in genomics without programming
+                            </a>
+                        </p>
+                    </li>
                 </ul>
             </div>
         </div>
         
         <!--chat coloum-->
-        <div class="col-md-2">
-            Online
+        <div class="col-md-2" style="position: fixed; right: -10px; background: white; border: 1px solid grey;">
+            <ul style="padding-left: 0px; list-style-type:none;">
+	  			<li>
+	  				&nbsp;
+	  			</li>
+	  			<li>
+	  				<p class="disabledletter">
+			    		<b>
+			    			<font face="Arial" size="1.9px" color="#8b8888">
+			    				YOUR GAMES
+			    			</font>
+			    		</b>
+			    	</p>
+	  			</li>
+	  			<li>
+	  				<div class="col-md-6">
+				    	<img src="img/fv2.png" width="60px" height="60px">
+				    </div>
+				    <div class="col-md-6">
+				    	<img src="img/fv.jpg" width="60px" height="60px">
+			   		</div>
+	  			</li>
+	  			<li role="separator" class="divider">
+	  				
+  				</li>
+  				<li>
+	  				&nbsp;
+	  			</li>
+	  			<li>
+	  				<p class="disabledletter">
+			    		<b>
+			    			<font face="Arial" size="1.9px" color="#8b8888">
+			    				SUGGESTED GAMES &nbsp;&nbsp;&nbsp;&nbsp;MORE
+			    			</font>
+			    		</b>
+			    	</p>
+	  			</li>
+	  			<li>
+	  				<div class="col-md-6">
+				    	<img src="img/vl.png" width="60px" height="60px">
+				    </div>
+				    <div class="col-md-6">
+				    	<img src="img/brick_games.png" width="60px" height="60px">
+			   		</div>
+	  			</li>
+	  			<li role="separator" class="divider">
+	  				
+  				</li>
+	  		</ul>
+	  		<br/>
+	  		<br/>
+            <br/>
+            <br/>
+            <p class="disabledletter">
+				<b>
+					<font face="Arial" size="1.9px" color="#8b8888">
+						ONLINE FRIENDS &nbsp;&nbsp;&nbsp;&nbsp;
+					</font>
+				</b>
+            </p>
+	  		<ul style="padding-left: 0px; list-style-type:none; padding-top: 15px; overflow:hidden; overflow-y:scroll; height: 400px;">
+	  			<li class="list-group-item">
+	  				<div>
+	  					<div class="row" style="margin-left:5px">
+	  						<div class=".col-md-2" style="float: left">
+	  							<img src="img/p1.jpg" width="20px" height="20px">
+	  						
+	  						</div>
+	  						<div class=".col-md-8" style="float: left"><a href="" style=""> Aswathy G Nair	&nbsp;&nbsp;</a>
+	  							
+	  						
+	  						</div>
+	  						<div class=".col-md-2">
+	  							<div class="badge" style="width:1px; height:15px; min-width:1px; color:green; background-color:green">
+	  							</div>
+	  						</div>
+	  					</div>				
+	  				</div>
+	  			</li>
+	  			<li class="list-group-item">
+	  				<div>
+	  					<div class="row" style="margin-left:5px">
+	  						<div class=".col-md-2" style="float: left">
+	  							<img src="img/syam.jpg" width="20px" height="20px">
+	  						
+	  						</div>
+	  						<div class=".col-md-8" style="float: left"><a href="">
+	  							Syam S Pillai	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  							</a>
+	  						</div>
+	  						<div class=".col-md-2">
+	  							<div class="badge" style="width:1px; height:15px; min-width:1px; color:green; background-color:green">
+	  							</div>
+	  						</div>
+	  					</div>	
+	  				</div>
+	  			</li>
+	  			<li class="list-group-item">
+	  				<div>
+	  					<div class="row" style="margin-left:5px">
+	  						<div class=".col-md-2" style="float: left">
+	  							<img src="img/p2.jpg" width="20px" height="20px">
+	  						
+	  						</div>
+	  						<div class=".col-md-8" style="float: left"><a href="">
+	  							Abeena Mol &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  						</a>
+	  						</div>
+	  						<div class=".col-md-2">
+	  							<div class="badge" style="width:1px; height:15px; min-width:1px; color:green; background-color:green">
+	  							</div>
+	  						</div>
+	  					</div>
+	  				</div>
+	  			</li>
+	  			<li class="list-group-item">
+	  				<div>
+	  						<img src="img/p3.jpg" width="20px" height="20px">
+	  						Asim Thaha
+	  				</div>
+	  			</li>
+	  			<li class="list-group-item">
+	  				<div>
+	  						<img src="img/p4.jpg" width="20px" height="20px">
+	  						Shabana
+	  				</div>
+	  			</li>
+	  			<li class="list-group-item">
+	  				<div>
+	  						<img src="img/p5.JPG" width="20px" height="20px">
+	  						Arathy Aravind
+	  				</div>
+	  			</li>
+	  			<li class="list-group-item">
+	  				<div>
+	  						<img src="img/p6.jpg" width="20px" height="20px">
+	  						Anju
+	  				</div>
+	  			</li>
+	  			<li class="list-group-item">
+	  				<div>
+	  						<img src="img/p7.jpg" width="20px" height="20px">
+	  						Ashik Abbas
+	  				</div>
+	  			</li>
+	  			<li class="list-group-item">
+	  				<div>
+	  						<img src="img/p9.jpg" width="20px" height="20px">
+	  						Jincy
+	  				</div>
+	  			</li>
+	  			<li class="list-group-item">
+	  				<div>
+	  						<img src="img/p10.jpg" width="20px" height="20px">
+	  						Bindu
+	  				</div>
+	  			</li>
+	  			<li class="list-group-item">
+	  				<div>
+	  						<img src="img/p12.jpg" width="20px" height="20px">
+	  						Shreya
+	  				</div>
+	  			</li>
+	  			<li class="list-group-item">
+	  				<div>
+	  						<img src="img/p13.jpg" width="20px" height="20px">
+	  						Seena Jamal
+	  				</div>
+	  			</li>
+	  		</ul>
         </div>
     </div>
     
