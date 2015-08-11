@@ -155,7 +155,9 @@ body{
 }
 
 article{
-    margin-top: 15px;
+    margin-top: 10px;
     background-color: white;
     padding: 5px;
+    border: 1px solid #b8b2b2; 
+    border-radius: 5px; 
 }
