@@ -190,6 +190,16 @@ article{
     margin-top: 10px;
     background-color: white;
     padding: 5px;
+    position: 
+}
+#screenshot{
+	position:absolute;
+	border:1px solid #ccc;
+	background:#333;
+	padding:5px;
+	display:none;
+	color:#fff;
+	}
     border: 1px solid #b8b2b2; 
     border-radius: 5px; 
 
@@ -241,4 +251,13 @@ article{
     border-bottom-width:  thin;
     border-bottom-style: solid;
     width: 100%;
+}
+.timeline_fill
+{
+    height: 20px;
+    background-color: transparent;
+}
+.timeline_tag:hover .timeline_fill
+{
+    background-color: black;
 }
