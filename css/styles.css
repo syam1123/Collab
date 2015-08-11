@@ -24,12 +24,11 @@ a:hover{
 	text-align: right;
 }
 .cover{
-	padding-left: 2%;
-	margin-left: 10%;
+	/*padding-left: 2%;
+	margin-left: 10%;*/
 	background-image: url("../img/cover.jpg");
 	height: 315px;
-	width: 851px;
-	padding-bottom: 0;    
+	width: 100%;  
 
 }
 #hover-content {
@@ -52,9 +51,9 @@ a:hover{
 
 }
 #coverpic{
-	background-color: rgba(0,0,0,.8);
+	background-color: rgba(0,0,0,.3);
 	width: 25%;
-	height: 33px;
+	height: 36px;
 	display: inline-block;
 	border:2px 2px;
 	border-left: 10%;
@@ -171,4 +170,12 @@ body{
   vertical-align: middle;
   background-color: red;
   border-radius: 1px;
+
+
+article{
+    margin-top: 10px;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid #b8b2b2; 
+    border-radius: 5px; 
 }
