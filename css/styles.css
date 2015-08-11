@@ -270,12 +270,23 @@ article{
     padding-right: 0px; 
     padding-left: 5px;
 }
-.left_tab
+.left_tab_ul
 {
     list-style-type:none; 
     background:white; border: 
     1px solid #b8b2b2; 
     border-radius: 5px;
+}
+.left_tab_div
+{
+    background:white; 
+    border: 1px solid #b8b2b2; 
+    border-radius: 5px; 
+    margin-left: 0px; 
+    margin-right: 0px; 
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+    margin-top: 10px;
 }
 .left_tab_left_margin
 {
@@ -296,4 +307,80 @@ article{
 .left_tab_font_size
 {
     font-size: 12px;
+}
+.wifi_image_followers
+{
+    color:grey; 
+    width:12px; 
+    margin-top: -4px;
+}
+.left_tab_header
+{
+    margin-top:5px; 
+    margin-left: 10px;
+    color: grey; 
+    font-family: Arial black; 
+    font-style:bold; 
+    font-size: 11px;
+}
+.left_tab_header_num
+{
+    color: grey; 
+    font-size: 9px; 
+}
+.left_tab_edit_pencil
+{
+    margin-top: 5px; 
+    margin-left: -2px;
+}
+.friend_photo
+{
+    margin-top:3px;
+}
+.friend_name
+{
+    width: 100px;
+    margin-left: 15px; 
+    top: 90px; 
+    color: white; 
+    text-ouline: 5px black;
+}
+.left_photos_2
+{
+    margin-left:-20px
+}
+.left_photos_1
+{
+    margin-left:-10px
+}
+.my_ul
+{
+    list-style-type: none;
+}
+.left_place_left_margin
+{
+    margin-left: -40px;
+}
+.place_image
+{
+    margin-left: -15px; margin-top: -9px; margin-bottom: -9px;
+}
+.ads_ul
+{
+    padding-left: 0px;
+    list-style-type: none;
+    padding-top: 45px;
+}
+.ads_div
+{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.ads_heading
+{
+    font-size: 10px; font-style: bold; color: #3B5998;
+}
+.ads_body
+{
+    font-size: 9px; font-style: bold; color: black;
 }

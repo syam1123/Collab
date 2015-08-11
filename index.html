@@ -10,9 +10,10 @@
     	Facebook
     </title>
 
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="js/main.js" type="text/javascript"></script>
@@ -217,7 +218,7 @@
                 
                 <!--Left info-->
                 <div class="col-md-5 left_side">
-                    <ul id="basic_info" class="left_tab">
+                    <ul id="basic_info" class="left_tab_ul">
                         <li class="edit_buttons_div left_tab_left_margin">
                             <div class="row left_tab_top">
                                 <div class="col-md-1">
@@ -313,12 +314,12 @@
                         <li class="edit_buttons_div left_tab_left_margin">
                             <div class="row">
                                 <div class="col-md-1">
-                                    <img src="img/wifi.png" style="color:grey; width:12px; margin-top: -4px;">
+                                    <img src="img/wifi.png" class="wifi_image_followers">
                                 </div>
                                 <div class="col-md-9">
-                                    <p style="font-size: 12px;">
+                                    <p class="left_tab_font_size">
                                         Followed by
-                                        <a href="#" style="color: #3B5998;  ">
+                                        <a href="#" class="fb_color">
                                             18 people
                                         </a>
                                     </p> 
@@ -331,16 +332,16 @@
                             </div>
                         </li>
                     </ul>
-                    <div id="friends_list" class="edit_buttons_div" style="background:white; border: 1px solid #b8b2b2; border-radius: 5px; margin-left: 0px; margin-right: 0px; padding-top: 5px; padding-bottom: 5px; margin-top: -1px;">
+                    <div id="friends_list" class="edit_buttons_div left_tab_div">
                         <div class="row">
                             <div class="col-md-10">
                                     <header>
-                                        <p style=" margin-top:5px; margin-left: 10px;">
-                                            <a href="#" style="color: #4D4D4D; font-family: Arial black; font-style:bold; font-size: 11px;">
+                                        <p class="">
+                                            <a href="#" class="left_tab_header">
                                                 FRIENDS    
                                             </a>
                                             .
-                                            <a href="#" style="color: grey; font-size: 9px; ">
+                                            <a href="#" class="left_tab_header_num">
                                                 1918    
                                             </a>
 
@@ -348,35 +349,32 @@
                                     </header>
                             </div>
                             <div class="col-md-1">
-                                <button class="edit_buttons_span" data-toggle="tooltip" data-placement="top" title="Edit" style="margin-top: 5px; margin-left: -2px;">
+                                <button class="edit_buttons_span left_tab_edit_pencil" data-toggle="tooltip" data-placement="top" title="Edit">
                                     <span class="glyphicon glyphicon-pencil "></span>
                                 </button>
                             </div>
                         </div>
                         <div class="row" style="">
                             <div class="col-md-4">
-                                <div class="image" style="margin-top:3px;">
+                                <div class="image friend_photo">
                                     <a href="#" class="screenshot" rel="img/hover.jpg" title=""><img class="img-rounded" width="100px" src="img/user.jpg" style="margin-left:5px"/></a>
-                                    <div class="text" style="width: 100px; margin-left: 15px; top: 90px; color: white; 
-    text-ouline: 5px black;">
+                                    <div class="text friend_name">
                                         <p>User </p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4">
-                                <div class="image" style="margin-top:3px;">
+                                <div class="image friend_photo">
                                     <a href="#" class="screenshot" rel="img/hover.jpg" title=""><img class="img-rounded" width="100px" title="Hello" src="img/user.jpg" style="margin-left: -5px"/></a>
-                                    <div class="text" style="width: 100px; margin-left: 15px; top: 90px; color: white; 
-    text-ouline: 5px black;">
+                                    <div class="text friend_name">
                                         <p>User </p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4">
-                                <div class="image" style="margin-top:3px;">
+                                <div class="image friend_photo">
                                     <a href="#" class="screenshot" rel="img/hover.jpg" title=""><img class="img-rounded" width="100px" title="Hello" src="img/user.jpg" style="margin-left: -15px"/></a>
-                                    <div class="text" style="width: 100px; margin-left: 15px; top: 90px; color: white; 
-    text-ouline: 5px black;">
+                                    <div class="text friend_name">
                                         <p>User </p>
                                     </div>
                                 </div>
@@ -384,28 +382,25 @@
                         </div>
                         <div class="row" style="">
                             <div class="col-md-4">
-                                <div class="image" style="margin-top:3px;">
+                                <div class="image friend_photo">
                                     <a href="#" class="screenshot" rel="img/hover.jpg" title=""><img class="img-rounded" width="100px" title="Hello" src="img/user.jpg" style="margin-left:5px"/></a>
-                                    <div class="text" style="width: 100px; margin-left: 15px; top: 90px; color: white; 
-    text-ouline: 5px black;">
+                                    <div class="text friend_name">
                                         <p>User </p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4">
-                                <div class="image" style="margin-top:3px;">
+                                <div class="image friend_photo">
                                     <a href="#" class="screenshot" rel="img/hover.jpg" title=""><img class="img-rounded" width="100px" title="Hello" src="img/user.jpg" style="margin-left: -5px"/></a>
-                                    <div class="text" style="width: 100px; margin-left: 15px; top: 90px; color: white; 
-    text-ouline: 5px black;">
+                                    <div class="text friend_name">
                                         <p>User </p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4">
-                                <div class="image" style="margin-top:3px;">
+                                <div class="image friend_photo">
                                     <a href="#" class="screenshot" rel="img/hover.jpg" title=""><img class="img-rounded" width="100px" title="Hello" src="img/user.jpg" style="margin-left: -15px"/></a>
-                                    <div class="text" style="width: 100px; margin-left: 15px; top: 90px; color: white; 
-    text-ouline: 5px black;">
+                                    <div class="text friend_name">
                                         <p>User </p>
                                     </div>
                                 </div>
@@ -413,45 +408,41 @@
                         </div>
                         <div class="row" style="">
                             <div class="col-md-4">
-                                <div class="image" style="margin-top:3px;">
+                                <div class="image friend_photo">
                                     <a href="#" class="screenshot" rel="img/hover.jpg" title=""><img class="img-rounded" width="100px" title="Hello" src="img/user.jpg" style="margin-left:5px"/></a>
-                                    <div class="text" style="width: 100px; margin-left: 15px; top: 90px; color: white; 
-    text-ouline: 5px black;">
+                                    <div class="text friend_name">
                                         <p>User </p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4">
-                                <div class="image" style="margin-top:3px;">
+                                <div class="image friend_photo">
                                     <a href="#" class="screenshot" rel="img/hover.jpg" title=""><img class="img-rounded" width="100px" title="Hello" src="img/user.jpg" style="margin-left: -5px"/></a>
-                                    <div class="text" style="width: 100px; margin-left: 15px; top: 90px; color: white; 
-    text-ouline: 5px black;">
+                                    <div class="text friend_name">
                                         <p>User </p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4">
-                                <div class="image" style="margin-top:3px;">
+                                <div class="image friend_photo">
                                     <a href="#" class="screenshot" rel="img/hover.jpg" title=""><img class="img-rounded" width="100px" title="Hello" src="img/user.jpg" style="margin-left: -15px"/></a>
-                                    <div class="text" style="width: 100px; margin-left: 15px; top: 90px; color: white; 
-    text-ouline: 5px black;">
+                                    <div class="text friend_name">
                                         <p>User </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
-                    <div id="photos" class="edit_buttons_div" style="background:white; border: 1px solid #b8b2b2; border-radius: 5px; margin-left: 0px; margin-right: 0px; padding-top: 5px; padding-bottom: 5px; margin-top: 10px;">
+                    <div id="photos" class="edit_buttons_div left_tab_div">
                         <div class="row">
                             <div class="col-md-10">
                                     <header>
-                                        <p style=" margin-top:5px; margin-left: 10px;">
-                                            <a href="#" style="color: #4D4D4D; font-family: Arial black; font-style:bold; font-size: 11px;">
+                                        <p class="left_tab_header">
+                                            <a href="#" class="left_tab_header">
                                                 PHOTOS    
                                             </a>
                                             .
-                                            <a href="#" style="color: grey; font-size: 9px; ">
+                                            <a href="#" class="left_tab_header_num">
                                                 419    
                                             </a>
 
@@ -459,73 +450,73 @@
                                     </header>
                             </div>
                             <div class="col-md-1">
-                                <button class="edit_buttons_span" data-toggle="tooltip" data-placement="top" title="Edit" style="margin-top: 5px; margin-left: -2px;">
+                                <button class="edit_buttons_span left_tab_edit_pencil" data-toggle="tooltip" data-placement="top" title="Edit">
                                     <span class="glyphicon glyphicon-pencil "></span>
                                 </button>
                             </div>
                         </div>
                         <div class="row" style="">
                             <div class="col-md-4">
-                                <div class="image" style="margin-top:3px;">
-                                    <a href="#" class="friend_hover"><img class="" width="110px" title="Hello" src="img/photos.png" style="margin-left:0px"/></a>
+                                <div class="image">
+                                    <a href="#" class="friend_hover"><img class="" width="110px" title="Hello" src="img/photos.png"/></a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="image">
+                                    <a href="#" class="friend_hover"><img class="left_photos_1" width="110px" title="Hello" src="img/photos.png"/></a>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="image" style="margin-top:3px;">
-                                    <a href="#" class="friend_hover"><img class="" width="110px" title="Hello" src="img/photos.png" style="margin-left:-10px"/></a>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="image" style="margin-top:3px;">
-                                    <a href="#" class="friend_hover"><img class="" width="110px" title="Hello" src="img/photos.png" style="margin-left:-20px"/></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row" style="">
-                            <div class="col-md-4">
-                                <div class="image" style="margin-top:3px;">
-                                    <a href="#" class="friend_hover"><img class="" width="110px" title="Hello" src="img/photos.png" style="margin-left:0px"/></a>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="image" style="margin-top:3px;">
-                                    <a href="#" class="friend_hover"><img class="" width="110px" title="Hello" src="img/photos.png" style="margin-left:-10px"/></a>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="image" style="margin-top:3px;">
-                                    <a href="#" class="friend_hover"><img class="" width="110px" title="Hello" src="img/photos.png" style="margin-left:-20px"/></a>
+                                    <a href="#" class="friend_hover"><img class="left_photos_2" width="110px" title="Hello" src="img/photos.png" /></a>
                                 </div>
                             </div>
                         </div>
                         <div class="row" style="">
                             <div class="col-md-4">
-                                <div class="image" style="margin-top:3px;">
-                                    <a href="#" class="friend_hover"><img class="" width="110px" title="Hello" src="img/photos.png" style="margin-left:0px"/></a>
+                                <div class="image" >
+                                    <a href="#" class="friend_hover"><img class="" width="110px" title="Hello" src="img/photos.png"/></a>
                                 </div>
                             </div>
                             <div class="col-md-4">
-                                <div class="image" style="margin-top:3px;">
-                                    <a href="#" class="friend_hover"><img class="" width="110px" title="Hello" src="img/photos.png" style="margin-left:-10px"/></a>
+                                <div class="image">
+                                    <a href="#" class="friend_hover"><img class="left_photos_1" width="110px" title="Hello" src="img/photos.png"/></a>
                                 </div>
                             </div>
                             <div class="col-md-4">
-                                <div class="image" style="margin-top:3px;">
-                                    <a href="#" class="friend_hover"><img class="" width="110px" title="Hello" src="img/photos.png" style="margin-left:-20px"/></a>
+                                <div class="image" >
+                                    <a href="#" class="friend_hover"><img class="left_photos_2" width="110px" title="Hello" src="img/photos.png"/></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" style="">
+                            <div class="col-md-4">
+                                <div class="image">
+                                    <a href="#" class="friend_hover"><img class="" width="110px" title="Hello" src="img/photos.png"/></a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="image">
+                                    <a href="#" class="friend_hover"><img class="left_photos_1" width="110px" title="Hello" src="img/photos.png"/></a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="image">
+                                    <a href="#" class="friend_hover"><img class="left_photos_2" width="110px" title="Hello" src="img/photos.png"/></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div id="videos" class="edit_buttons_div" style="background:white; border: 1px solid #b8b2b2; border-radius: 5px; margin-left: 0px; margin-right: 0px; padding-top: 5px; padding-bottom: 5px; margin-top: 10px;">
+                    <div id="videos" class="edit_buttons_div left_tab_div">
                         <div class="row">
                             <div class="col-md-10">
                                     <header>
-                                        <p style=" margin-top:5px; margin-left: 10px;">
-                                            <a href="#" style="color: #4D4D4D; font-family: Arial black; font-style:bold; font-size: 11px;">
+                                        <p>
+                                            <a href="#" class="left_tab_header">
                                                 VIDEOS    
                                             </a>
                                             .
-                                            <a href="#" style="color: grey; font-size: 9px; ">
+                                            <a href="#" class="left_tab_header_num">
                                                 8    
                                             </a>
 
@@ -533,72 +524,72 @@
                                     </header>
                             </div>
                             <div class="col-md-1">
-                                <button class="edit_buttons_span" data-toggle="tooltip" data-placement="top" title="Edit" style="margin-top: 5px; margin-left: -2px;">
+                                <button class="edit_buttons_span left_tab_edit_pencil" data-toggle="tooltip" data-placement="top" title="Edit">
                                     <span class="glyphicon glyphicon-pencil "></span>
                                 </button>
                             </div>
                         </div>
                         <div class="row" style="">
                             <div class="col-md-4">
-                                <div class="image" style="margin-top:3px;">
-                                    <a href="#" class="friend_hover"><img class="" width="110px" title="Hello" src="img/video.png" style="margin-left:0px"/></a>
+                                <div class="image">
+                                    <a href="#" class="friend_hover"><img class="" width="110px" title="Hello" src="img/video.png"/></a>
                                 </div>
                             </div>
                             <div class="col-md-4">
-                                <div class="image" style="margin-top:3px;">
-                                    <a href="#" class="friend_hover"><img class="" width="110px" title="Hello" src="img/video.png" style="margin-left:-10px"/></a>
+                                <div class="image">
+                                    <a href="#" class="friend_hover"><img class="left_photos_1" width="110px" title="Hello" src="img/video.png"/></a>
                                 </div>
                             </div>
                             <div class="col-md-4">
-                                <div class="image" style="margin-top:3px;">
-                                    <a href="#" class="friend_hover"><img class="" width="110px" title="Hello" src="img/video.png" style="margin-left:-20px"/></a>
+                                <div class="image">
+                                    <a href="#" class="friend_hover"><img class="left_photos_2" width="110px" title="Hello" src="img/video.png"/></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div id="places" class="edit_buttons_div" style="background:white; border: 1px solid #b8b2b2; border-radius: 5px; margin-left: 0px; margin-right: 0px; padding-top: 5px; padding-bottom: 5px; margin-top: 10px;">
+                    <div id="places" class="edit_buttons_div left_tab_div">
                         <div class="row">
                             <div class="col-md-10">
                                     <header>
-                                        <p style=" margin-top:5px; margin-left: 10px;">
-                                            <a href="#" style="color: #4D4D4D; font-family: Arial black; font-style:bold; font-size: 11px;">
+                                        <p>
+                                            <a href="#" class="left_tab_header">
                                                 PLACES    
                                             </a>
                                         </p>
                                     </header>
                             </div>
                             <div class="col-md-1">
-                                <button class="edit_buttons_span" data-toggle="tooltip" data-placement="top" title="Edit" style="margin-top: 5px; margin-left: -2px;">
+                                <button class="edit_buttons_span left_tab_edit_pencil" data-toggle="tooltip" data-placement="top" title="Edit">
                                     <span class="glyphicon glyphicon-pencil "></span>
                                 </button>
                             </div>
                         </div>
-                        <ul style="list-style-type:none;">
-                            <li class="list-group-item" style="margin-left: -40px">
-                                <div class="row" style="margin-bottom : -18px;">
+                        <ul class="my_ul">
+                            <li class="list-group-item left_place_left_margin">
+                                <div class="row">
                                     <div class="col-md-2">
-                                        <img src="img/kanyakumari.jpg" width="60px" height="60px" style="margin-left: -15px; margin-top: -9px; margin-bottom: -9px;">   
+                                        <img src="img/kanyakumari.jpg" width="60px" height="60px" class="place_image">   
                                     </div>
                                     <div class="col-md-10">
-                                        <a href="#" style="color: #3B5998; font-size: 12px;">Kanyakumari, India - Faras Mahamood</a>
-                                        <p style="font-size: 12px; color: grey;">was with
-                                        <a href="#" style="color: #3B5998;  font-size: 12px;">Ali Farhan C</a> and
-                                        <a href="#" style="color: #3B5998;  ">34 others</a><br/>
-                                        <a href="" style="color:grey;">About 3 months ago</a>
+                                        <a href="#" class="fb_color left_tab_font_size">Kanyakumari, India - Faras Mahamood</a>
+                                        <p class="left_tab_font_size left_tab_grey_color">was with
+                                        <a href="#" class="fb_color left_tab_font_size">Ali Farhan C</a> and
+                                        <a href="#" class="fb_color">34 others</a><br/>
+                                        <a href="" class="left_tab_grey_color">About 3 months ago</a>
                                     </div>
                                 </div>
                             </li>
-                            <li class="list-group-item" style="margin-left: -40px">
-                                <div class="row" style="margin-bottom : -18px;">
+                            <li class="list-group-item left_place_left_margin">
+                                <div class="row">
                                     <div class="col-md-2">
-                                        <img src="img/kulamavu.JPG" width="60px" height="60px" style="margin-left: -15px; margin-top: -9px; margin-bottom: -9px;">
+                                        <img src="img/kulamavu.JPG" width="60px" height="60px" class="place_image">
                                     </div>
                                     <div class="col-md-10">
-                                        <a href="#" style="color: #3B5998; font-size: 12px;">Kulamavu, India - Arjun Purushothaman</a>
-                                        <p style="font-size: 12px; color: grey;">was with
-                                        <a href="#" style="color: #3B5998;  font-size: 12px;">Ajmal Amjad C</a> and
-                                        <a href="#" style="color: #3B5998;  ">9 others</a><br/>
-                                        <a href="" style="color:grey;">About 4 months ago</a>
+                                        <a href="#" class="fb_color left_tab_font_size">Kulamavu, India - Arjun Purushothaman</a>
+                                        <p class="left_tab_font_size left_tab_grey_color">was with
+                                        <a href="#" class="fb_color left_tab_font_size">Ajmal Amjad C</a> and
+                                        <a href="#" class="fb_color">9 others</a><br/>
+                                        <a href="" class="left_tab_grey_color">About 4 months ago</a>
                                     </div>
                                 </div>
                             </li>
@@ -865,15 +856,15 @@
         </div>
         
         <!--The ads col-->
-        <div class="col-md-1" style="padding-left: 0px;">
+        <div class="col-md-1 ads_div">
             <div>
-                <ul style="padding-left: 0px; list-style-type:none;">
+                <ul class="ads_ul">
                     <li>
                         &nbsp;
                     </li>
                     <li>
                         <header class="">
-                            <a href="#" style="color: grey; font-family: Arial black;  font-size: 11px;">
+                            <a href="#" class="left_tab_header">
                                 Sponsored <span class="glyphicon glyphicon-headphones"></span>
                             </a>
                         </header>
@@ -883,12 +874,12 @@
                         <img src="img/ebay.png" width="120px"></a>
                     </li>
                     <li>
-                        <a href="#" style="font-size: 10px; font-style: bold; color: #3B5998;">
+                        <a href="#" class="ads_heading">
                             START UP EXHIBIT <br/>
                             surgeconf.com
                         </a>
                         <p>
-                            <a href="#" style="font-size: 9px; font-style: bold; color: black;">
+                            <a href="#" class="ads_body">
                                 START UP in India ? Exhibit FREE as a part of ALPHA at SURGE in Banglore. Enter your Mail.
                             </a>
                         </p>
@@ -898,12 +889,12 @@
                         <img src="img/flipkart.jpg" width="120px"></a>
                     </li>
                     <li>
-                        <a href="#" style="font-size: 10px; font-style: bold; color: #3B5998;">
+                        <a href="#" class="ads_heading">
                             <b>Arttime Awesome August </b><br/>
                             arttime.pro
                         </a>
                         <p>
-                            <a href="#" style="font-size: 9px; font-style: bold; color: black;">
+                            <a href="#" class="ads_body">
                                 Make your internet radio station with double storage and listeners by August 31. Try free.
                             </a>
                         </p>
@@ -915,12 +906,12 @@
                         <img src="img/amazon.jpg" width="120px"></a>                        
                     </li>
                     <li>
-                        <a href="#" style="font-size: 10px; font-style: bold; color: #3B5998;">
+                        <a href="#" class="ads_heading">
                             <b>Genomics analysis made ... </b><br/>
                             insilcodb.com
                         </a>
                         <p>
-                            <a href="#" style="font-size: 9px; font-style: bold; color: black;">
+                            <a href="#" class="ads_body">
                                 Bacome a better biologist by getting started in genomics without programming
                             </a>
                         </p>
