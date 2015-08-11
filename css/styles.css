@@ -261,3 +261,39 @@ article{
 {
     background-color: black;
 }
+.left_and_right
+{
+    margin-top: 20px;
+}
+.left_side
+{
+    padding-right: 0px; 
+    padding-left: 5px;
+}
+.left_tab
+{
+    list-style-type:none; 
+    background:white; border: 
+    1px solid #b8b2b2; 
+    border-radius: 5px;
+}
+.left_tab_left_margin
+{
+    margin-left: -30px;
+}
+.left_tab_top
+{
+    margin-top:8px;
+}
+.left_tab_grey_color
+{
+    color:grey;
+}
+.fb_color
+{
+    color: #3B5998;
+}
+.left_tab_font_size
+{
+    font-size: 12px;
+}
