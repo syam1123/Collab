@@ -132,7 +132,7 @@ body{
 }
 .edit_buttons_span:hover
 {
-    background: #3b5998;
+    background-color: #3b5998;
     color: white;
     border-radius: 3px;
     width: 23px;
@@ -142,7 +142,6 @@ body{
 {
     color: darkgrey;
     margin-top: 0px;
-    background-color: transparent;
     border: none;
     display: block;
 }
