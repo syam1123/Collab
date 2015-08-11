@@ -1,4 +1,7 @@
 /*you guys can add your own styles here*/
+body {
+background-color: rgba(0, 0, 0, 0.1);
+}
 a:hover{
     text-decoration: blink;
     color: black;
@@ -8,6 +11,7 @@ a:hover{
     margin-left: 0;
     padding-top: 5px;
     padding-left: 0;
+
 }
 #profile{
     background-color: #3b5998;
@@ -110,9 +114,7 @@ textarea{
 
     background-color: #dfe3ee;
 }
-body{
-    background-color: #dfe3ee;
-}
+
 
 #btn-bar{
     display: none;
@@ -184,7 +186,10 @@ body{
   background-color: red;
   border-radius: 2px;
 }
-
+.top{
+	height: 50px;
+	background-position: 0px 0px;
+}
 
 article{
     margin-top: 10px;
