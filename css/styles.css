@@ -52,7 +52,7 @@ a:hover{
 
 }
 #coverpic{
-	background-color: rgba(0,0,0,.3);
+	background-color: rgba(0,0,0,.8);
 	width: 25%;
 	height: 33px;
 	display: inline-block;
@@ -154,4 +154,22 @@ body{
     top:10px;
     left:10px;
     width:300px;
+}
+.update{
+	
+	margin-left: 10%;
+}
+.badge_log {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: red;
+  border-radius: 1px;
 }
