@@ -161,3 +161,10 @@ article{
     border: 1px solid #b8b2b2; 
     border-radius: 5px; 
 }
+
+.grey-text{
+    color: grey;
+}
+video{
+    width: 100%;
+}
