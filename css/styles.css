@@ -24,19 +24,13 @@ a:hover{
     text-align: right;
 }
 .cover{
-<<<<<<< HEAD
-	/*padding-left: 2%;
-	margin-left: 10%;*/
-	background-image: url("../img/cover.jpg");
-	height: 315px;
-	width: 100%;  
-=======
+
     /*padding-left: 2%;
     margin-left: 10%;*/
     background-image: url("../img/cover.jpg");
     height: 315px;
     width: 100%;
->>>>>>> 0aa45e4502ed3c47570403f5b3928ccecb089add
+    
 
 }
 #hover-content {
@@ -59,25 +53,16 @@ a:hover{
 
 }
 #coverpic{
-<<<<<<< HEAD
-	background-color: rgba(0,0,0,.3);
-	width: 25%;
-	height: 36px;
-	display: inline-block;
-	border:2px 2px;
-	border-left: 10%;
-	border-style: 1px solid black;
-	padding left: %;
-=======
+	position: relative;
     background-color: rgba(0,0,0,.3);
     width: 25%;
-    height: 33px;
+    height: 36px;
     display: inline-block;
     border:2px 2px;
     border-left: 10%;
     border-style: 1px solid black;
-    padding left: %;
->>>>>>> 0aa45e4502ed3c47570403f5b3928ccecb089add
+
+    
 }
 #covertop{
     min-height: 300px;
@@ -89,6 +74,14 @@ a:hover{
     background-color: black;
     box-shadow: 1px 1px #888888;
 }
+.toprow{
+  margin-right: -15px;
+  margin-left: -15px;
+  position: fixed;
+  min-width: 100%;
+  z-index: 1;
+}
+
 
 
 /*Sravan*/
@@ -172,7 +165,7 @@ body{
     left:10px;
     width:300px;
 }
-<<<<<<< HEAD
+
 .update{
 	
 	margin-left: 10%;
@@ -180,7 +173,7 @@ body{
 .badge_log {
   display: inline-block;
   min-width: 10px;
-  padding: 3px 7px;
+  padding: 1px 4px;
   font-size: 12px;
   font-weight: bold;
   line-height: 1;
@@ -189,20 +182,17 @@ body{
   white-space: nowrap;
   vertical-align: middle;
   background-color: red;
-  border-radius: 1px;
+  border-radius: 2px;
+}
 
-=======
->>>>>>> 0aa45e4502ed3c47570403f5b3928ccecb089add
 
 article{
     margin-top: 10px;
     background-color: white;
     padding: 5px;
-<<<<<<< HEAD
     border: 1px solid #b8b2b2; 
     border-radius: 5px; 
-}
-=======
+
     border: 1px solid #b8b2b2;
     border-radius: 5px;
 }
@@ -252,4 +242,3 @@ article{
     border-bottom-style: solid;
     width: 100%;
 }
->>>>>>> 0aa45e4502ed3c47570403f5b3928ccecb089add

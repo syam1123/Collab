@@ -20,7 +20,7 @@
 <body style="background: #dfe3ee;">
     
     <!--Page header(the blue nav bar at top)-->
-    <div class="container-fluid" id="head" height="50px">
+    <div class="container-fluid toprow" id="head" height="50px">
         <div class="container-fluid" height="50px" style="background-position: 0px 0px;">
             <div class="row">
                 <div class="col-xs-2 col-sm-2 logo"> <a href=""><img src="img/logo.png" height="50px"></a></div>
@@ -69,7 +69,7 @@
 						</div>
                       <div class="dropdown drop">
   							<span class="" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-    							<a href=""> <span class="glyphicon glyphicon-globe" aria-hidden="true"><span class="btn-danger badge">1</span></span> </a>&nbsp;
+    							<a href=""> <span class="glyphicon glyphicon-globe" aria-hidden="true"><span class="btn-danger badge_log">1</span></span> </a>&nbsp;
     
   							</span>
 						    <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
@@ -147,11 +147,12 @@
     
     <!--main-->
     <div class="row">
-        
+    
         <!--Cover and stuff physically below it-->
         <div class="col-md-8 col-md-offset-1">
             
             <!--cover and it's descendents-->
+            <br><br>
             <div class="cover">
                 <div id="parent">
                 <br>
@@ -739,10 +740,111 @@
                             <a class="grey-text"><span class="glyphicon glyphicon-list"></span>Comment</a>
                         </section>
                     </article>
+                    <article>
+                        <header class="container-fluid">
+                            <div class="col-md-10">
+                                <div class="row">
+                                    <div class="col-md-1">
+                                        <span class="glyphicon glyphicon-user"></span>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="row">
+                                            <a class="links"><b>Name Last</b></a>
+                                        </div>
+                                        <div class="row">
+                                            <a class="grey-text">Time</a>
+                                            <a class="grey-text">Privacy</a>
+                                        </div>
+                                    </div>
+                                </div>                        
+                            </div>
+                            <div class="col-md-1 dropdown">
+                                <button class="btn" data-toggle="dropdown">
+                                    <span class="glyphicon glyphicon-menu-down"></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <div class="row post-content">
+                                            <div class="col-md-3 header-item"><span class="glyphicon glyphicon-download-alt"></span></div>
+                                            <div class="col-md-5 col-md-offset-4"><a href="#">Save</a></div>
+                                        </div>
+                                        <div class="row post-content">
+                                            <div class="col-md-3 header-item"><span class="glyphicon glyphicon-trash"></span></div>
+                                            <div class="col-md-5 col-md-offset-4"><a href="#">Delete</a></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                    </li>
+                                </ul>
+                            </div>
+                        </header>
+                        <section class="post-content">
+                            <p> Every reader, as he reads, is actually the reader of himself. The writer's work is only a kind of optical instrument he provides the reader so he can discern what he might never have seen in himself without this book. The reader's recognition in himself of what the book says is the proof of the book's truth.
+                            </p>
+                            <footer class="container"><a class="grey-text">X likes y comments z shares</a></footer>
+                        </section>
+                        <section class="container-fluid ">
+                            <a class="grey-text"><span class="glyphicon glyphicon-thumbs-up"></span>Like</a>
+                            <a class="grey-text"><span class="glyphicon glyphicon-share"></span>Share</a>
+                            <a class="grey-text"><span class="glyphicon glyphicon-list"></span>Comment</a>
+                        </section>
+                    </article>
+                    <article>
+                        <header class="container-fluid">
+                            <div class="col-md-10">
+                                <div class="row">
+                                    <div class="col-md-1">
+                                        <span class="glyphicon glyphicon-user"></span>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="row">
+                                            <a class="links"><b>Name Last</b></a>
+                                        </div>
+                                        <div class="row">
+                                            <a class="grey-text">Time</a>
+                                            <a class="grey-text">Privacy</a>
+                                        </div>
+                                    </div>
+                                </div>                        
+                            </div>
+                            <div class="col-md-1 dropdown">
+                                <button class="btn" data-toggle="dropdown">
+                                    <span class="glyphicon glyphicon-menu-down"></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <div class="row post-content">
+                                            <div class="col-md-3 header-item"><span class="glyphicon glyphicon-download-alt"></span></div>
+                                            <div class="col-md-5 col-md-offset-4"><a href="#">Save</a></div>
+                                        </div>
+                                        <div class="row post-content">
+                                            <div class="col-md-3 header-item"><span class="glyphicon glyphicon-trash"></span></div>
+                                            <div class="col-md-5 col-md-offset-4"><a href="#">Delete</a></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                    </li>
+                                </ul>
+                            </div>
+                        </header>
+                        <section class="post-content" >
+                            <p> Funny Dubsmash video.
+                            </p>
+                            <video width="100%">
+                                <source src="img/video.webm" type="video/webm"/>
+                                your browser doesn't support videos
+                            </video>
+                            <footer class="container"><a class="grey-text">yyy views</a></footer>
+                        </section>
+                        <section class="container-fluid ">
+                            <a class="grey-text"><span class="glyphicon glyphicon-thumbs-up"></span>Like</a>
+                            <a class="grey-text"><span class="glyphicon glyphicon-share"></span>Share</a>
+                            <a class="grey-text"><span class="glyphicon glyphicon-list"></span>Comment</a>
+                        </section>
+                    </article>
                 </div>
             </div>
         </div>
-<<<<<<< HEAD
         
         <!--The ads col-->
         <div class="col-md-1">
@@ -760,7 +862,6 @@
     <footer>
         Footer
     </footer>
-=======
 
     <div class="hidden-xs col-md-7">
         test
@@ -776,7 +877,5 @@
                 Footer
             </div>
         </footer>
-
->>>>>>> d3133d422172b81e7a00b38db6fb2992cca00262
     </body>
 </html>
