@@ -195,7 +195,8 @@ article{
     margin-top: 10px;
     background-color: white;
     padding: 5px;
-    position: 
+    border: 1px solid #b8b2b2;
+    border-radius: 5px;
 }
 #screenshot{
 	position:absolute;
@@ -265,4 +266,185 @@ article{
 .timeline_tag:hover .timeline_fill
 {
     background-color: black;
+}
+.left_and_right
+{
+    margin-top: 20px;
+}
+.left_side
+{
+    padding-right: 0px; 
+    padding-left: 5px;
+}
+.left_tab_ul
+{
+    list-style-type:none; 
+    background:white; border: 
+    1px solid #b8b2b2; 
+    border-radius: 5px;
+}
+.left_tab_div
+{
+    background:white; 
+    border: 1px solid #b8b2b2; 
+    border-radius: 5px; 
+    margin-left: 0px; 
+    margin-right: 0px; 
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+    margin-top: 10px;
+}
+.left_tab_left_margin
+{
+    margin-left: -30px;
+}
+.left_tab_top
+{
+    margin-top:8px;
+}
+.left_tab_grey_color
+{
+    color:grey;
+}
+.fb_color
+{
+    color: #3B5998;
+}
+.left_tab_font_size
+{
+    font-size: 12px;
+}
+<<<<<<< HEAD
+=======
+.wifi_image_followers
+{
+    color:grey; 
+    width:12px; 
+    margin-top: -4px;
+}
+.left_tab_header
+{
+    margin-top:5px; 
+    margin-left: 10px;
+    color: grey; 
+    font-family: Arial black; 
+    font-style:bold; 
+    font-size: 11px;
+}
+.left_tab_header_num
+{
+    color: grey; 
+    font-size: 9px; 
+}
+.left_tab_edit_pencil
+{
+    margin-top: 5px; 
+    margin-left: -2px;
+}
+.friend_photo
+{
+    margin-top:3px;
+}
+.friend_name
+{
+    width: 100px;
+    margin-left: 15px; 
+    top: 90px; 
+    color: white; 
+    text-ouline: 5px black;
+}
+.left_photos_2
+{
+    margin-left:-20px
+}
+.left_photos_1
+{
+    margin-left:-10px
+}
+.my_ul
+{
+    list-style-type: none;
+}
+.left_place_left_margin
+{
+    margin-left: -40px;
+}
+.place_image
+{
+    margin-left: -15px; 
+    margin-top: -9px; 
+    margin-bottom: -9px;
+}
+.ads_ul
+{
+    padding-left: 0px;
+    list-style-type: none;
+    padding-top: 45px;
+}
+.ads_div
+{
+    padding-left: 0px;
+    padding-right: 0px;
+    position: fixed;
+    right: 204px;
+    width: 120px;
+}
+.ads_heading
+{
+    font-size: 10px; 
+    font-style: bold; 
+    color: #3B5998;
+}
+.ads_body
+{
+    font-size: 9px; 
+    font-style: bold; 
+    color: black;
+}
+#Online_ul
+{
+    padding-left: 0px; 
+    list-style-type:none; 
+    padding-top: 15px; 
+    overflow:hidden; 
+    margin-top: -23px;
+    overflow-y:scroll; 
+    height: 100%;
+}
+.online_margin_left
+{
+    margin-left:5px;
+}
+.online_prof_pic
+{
+    float: left;
+}
+.badge_online
+{
+    width:1px; 
+    height:15px; 
+    min-width:1px; 
+    color:green; 
+    background-color:green; 
+    float:right;
+}
+.right_tab
+{
+    position: fixed; 
+    right: -16px; 
+    background: white;
+    top: 40px;
+    padding-left: 3px;
+    border: 1px solid #c7c7c7;
+}
+#right_tab_ul
+{
+    padding-left: 0px; 
+    list-style-type:none;
+}
+.right_tab_li
+{
+    border: 1px solid #c7c7c7;
+    padding: 10px ;
+    
 }
