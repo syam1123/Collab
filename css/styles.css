@@ -386,15 +386,17 @@ article{
     padding-left: 0px;
     padding-right: 0px;
     position: fixed;
+    
     right: 204px;
     width: 120px;
 }
-.ads_heading
-{
+
+.ads_heading {
     font-size: 10px; 
     font-style: bold; 
     color: #3B5998;
 }
+
 .ads_body
 {
     font-size: 9px; 
@@ -403,13 +405,14 @@ article{
 }
 #Online_ul
 {
-    padding-left: 0px; 
+    padding-left: 0px;
+    position: absolute;
     list-style-type:none; 
-    padding-top: 15px; 
-    overflow:hidden; 
-    margin-top: -23px;
+    padding-top: 0px;
     overflow-y:scroll; 
     height: 100%;
+    right: 15px;
+    width: 93%;
 }
 .online_margin_left
 {
@@ -433,13 +436,14 @@ article{
     position: fixed; 
     right: -16px; 
     background: white;
-    top: 40px;
-    padding-left: 3px;
+    top: 35px;
+    padding: 0px;
     border: 1px solid #c7c7c7;
 }
 #right_tab_ul
 {
-    padding-left: 0px; 
+    padding : 0px 0px;;
+    margin: 0px;
     list-style-type:none;
 }
 .right_tab_li
